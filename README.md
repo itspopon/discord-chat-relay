@@ -12,7 +12,8 @@ Tera-strings may need updating in the future. Latest one I pulled was from [trin
 
 ## INSTALLATION
 
-* Download or clone this repo and then run `npm install`
+* Ignore everything but module.json and the config folder
 * Fill out the information in config/sample-config.json and rename to config.json
-* Place folder in tera-proxy\bin\node_modules\
+* Place module.json and config/ folder in tera-proxy/bin/node_modules/
 * Launch proxy and then start Tera and enjoy
+* NOTE: If having trouble auto updating, delete everything in the tera-proxy/bin/node_modules/discord-tera-gchat folder except module.json and config/ and start proxy again. It will pull a fresh copy of the files based on module.json.
