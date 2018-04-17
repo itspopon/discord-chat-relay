@@ -1,0 +1,4 @@
+*.vscode
+*.lock
+manifestGenerator.js
+config/config.json

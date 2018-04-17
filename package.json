@@ -1,0 +1,28 @@
+{
+  "name": "discord-chat-relay",
+  "version": "1.0.0",
+  "description": "Relay chat between Tera & Discord",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hauuguu/discord-chat-relay.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hauuguu/discord-chat-relay/issues"
+  },
+  "homepage": "https://github.com/Hauuguu/discord-chat-relay#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "underscore": "^1.8.3"
+  }
+}
