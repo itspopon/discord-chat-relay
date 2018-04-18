@@ -1,12 +1,12 @@
 {
 	"files": {
-		"index.js": "65a25d0d25ab334db072d85d1fe15fd356b2f2cb40dc409ff2ac50d48db94ab0",
+		"index.js": "81dec2c228db0e3dbade1cef5fea640eaf4c733f1dda16592e889b011d5eace1",
 		"package-lock.json": "dc0f4e9718becb668b9057dd236dbdd1587031dd3bd60ca4329cf9e96965ba70",
 		"package.json": "e1f49809c670bbb3c66f6efff817b93af287958a7a8fd2ff4ad7a6767fd38c66",
 		"README.md": "fb84ffb0c455d81e4ac3d4175400a7f4f5cb8bd7d04f036350ce9a3023546c87",
-		"config/sample-config.json": "eeb42a80b3cc69d5adb48230b308cdb871c039c3f2a34a8ee77c5824d563aa9d",
-		"lib/discordHandler.js": "2abdebdbbd378c7cf42352205e356bb568c8379ea90b46ef0f61ce488b02c2ad",
-		"lib/teraHandler.js": "9b0fb23c01a7da2748bb0f62e8b982e8a8384b16eec049c3507e6305a335598b",
+		"config/sample-config.json": "d73abab37e1905d61890a73cbd28e28ee3ca83bcd1b1024dee082046e2f87ec8",
+		"lib/discordHandler.js": "ad6943e46566671cb3084d77dc9eab2b3320001e3b7c7d34cc84bffe12168195",
+		"lib/teraHandler.js": "36a9d3f80a0a8d59e6ad9c7022d952e17af416f49aed4c71b5880f95bb082b0f",
 		"lib/ipc/IpcClient.js": "283865e885ac1dbda2ecb8c2dfc82738ec2d6051b2949992c298d81c4bed33f0",
 		"lib/ipc/IpcServer.js": "6a7fb895a1bc6476388dbfcdd12850a0fa7ffed56cc26dbe00587967c5c3732b",
 		"lib/tera-strings/index.js": "5c8b59579627a4bfb7dd1458bd2d92efdff56eae80060bfcf2ddb4be409efe0c",
