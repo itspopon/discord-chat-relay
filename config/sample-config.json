@@ -4,7 +4,9 @@
   "token": "DISCORD_BOT_TOKEN_HERE",
   "serverId": "DISCORD_SERVER_ID_HERE",
   "channels": {
-    "gchat": "GUID_CHAT_CHANNEL_ID_HERE"
+    "gchat": "GUID_CHAT_CHANNEL_ID_HERE",
+    "gquests": "GUILD_QUEST_LOGGING_CHANNEL_HERE",
+    "guildannouncements": "GUILD_ACHIEVEMENT_LOGGING_HERE"
   },
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
