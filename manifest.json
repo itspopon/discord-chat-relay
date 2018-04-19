@@ -281,7 +281,6 @@
 		"node_modules/discord.js/src/client/websocket/packets/handlers/UserUpdate.js": "53c1c37d282b63cef390ebb1a3600220d02c478995531aad03cb76a50c32f966",
 		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js": "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c",
 		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceServerUpdate.js": "fe816e35fa7600e0f2e9e0d80802339fdb956a030d2499106f78a3704d1996e3",
-		"module.json": "2eb44198b6bad31b5df1029413efd4a15cecd82097238376479db594ecd93aae",
-		"yarn-error.log": "edee9980230e65a536b0857f9f07ae679a22bd676761da8f635ee9484856e839"
+		"module.json": "2eb44198b6bad31b5df1029413efd4a15cecd82097238376479db594ecd93aae"
 	}
 }
