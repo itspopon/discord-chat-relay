@@ -24,9 +24,9 @@ class DiscordChatRelay {
     };
 
     // ping-pong
-    dispatch.hook('sPing', 1, () => {
+    dispatch.hook('S_PING', 1, () => {
       console.log(`[${U.getTimestamp()}][index.js] ping ponging...`);
-      dispatch.toServer('cPong', 1);
+      dispatch.toServer('C_PONG', 1);
     });
   }
 }
