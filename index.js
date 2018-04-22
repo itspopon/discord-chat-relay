@@ -22,6 +22,12 @@ class DiscordChatRelay {
     this.destructor = () => {
       teraHandler.setLoginStatus(false);
     };
+
+    // ping-pong
+    dispatch.hook('sPing', 1, () => {
+      console.log(`[${U.getTimestamp()}][index.js] ping ponging...`);
+      dispatch.toServer('cPong', 1);
+    });
   }
 }
 
