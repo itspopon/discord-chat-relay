@@ -8,7 +8,7 @@ const U = require('./lib/util');
 class DiscordChatRelay {
   constructor(dispatch) {
     /* CONFIG FILE */
-    const config = JSON.parse(fs.readFileSync(path.join(__dirname, '/config/config.json'), 'utf8'));
+    const config = JSON.parse(fs.readFileSync(path.join(__dirname, '/config/config.json'), 'utf8'),);
 
     if (!config) {
       console.error('no config file found');

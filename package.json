@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
+    "deploy":
+      "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
   },
   "repository": {
     "type": "git",
