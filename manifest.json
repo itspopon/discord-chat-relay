@@ -6,7 +6,7 @@
 		"README.md": "fb84ffb0c455d81e4ac3d4175400a7f4f5cb8bd7d04f036350ce9a3023546c87",
 		"config/sample-config.json": "d73abab37e1905d61890a73cbd28e28ee3ca83bcd1b1024dee082046e2f87ec8",
 		"lib/teraHandler.js": "a5958bf18ae42c54a0e03e387819e408d556deab3e692047045cab8498ac97fa",
-		"lib/discordHandler.js": "9ef7d89d8ff1d908d53ca3aeeb52d95aa98774de3122917031a4fed563fe496c",
+		"lib/discordHandler.js": "7c5e51092e6ef17b83db8f4d3c0abb9adc7ebe504301371f57284ef3826d7281",
 		"lib/ipc/IpcClient.js": "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
 		"lib/ipc/IpcServer.js": "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
 		"lib/sysmsg/index.js": "21628019c4df61fe0247e7494f90f6a0ab7bd343829d0103162ca024ac635d6f",
