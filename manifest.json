@@ -1,583 +1,301 @@
 {
-  "files": {
-    "index.js":
-      "e1fbee3a0ea439944b510e498bcda24197ff57c45e53b6e128c5c971d57ae1ba",
-    "module.json":
-      "2eb44198b6bad31b5df1029413efd4a15cecd82097238376479db594ecd93aae",
-    "package.json":
-      "65577d0bed1fbd0be0edeb482c450a67e86814523d2705d3867e858a52d776db",
-    "README.md":
-      "fb84ffb0c455d81e4ac3d4175400a7f4f5cb8bd7d04f036350ce9a3023546c87",
-    "config/sample-config.json":
-      "d73abab37e1905d61890a73cbd28e28ee3ca83bcd1b1024dee082046e2f87ec8",
-    "lib/teraHandler.js":
-      "3f29819feb44cda77ee85dd05af65eab400bddd09360f30ed6a13ac0c51a89c6",
-    "lib/discordHandler.js":
-      "4c1b920d08e29ce3c5ee34d3f1cb9089507129f4a8e644c17d2b0f4422a954bc",
-    "lib/ipc/IpcClient.js":
-      "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
-    "lib/ipc/IpcServer.js":
-      "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
-    "lib/sysmsg/index.js":
-      "21628019c4df61fe0247e7494f90f6a0ab7bd343829d0103162ca024ac635d6f",
-    "lib/sysmsg/package.json":
-      "ad8ce84aa4b3968b5aaae6b481807cd867c4c418d70e8ef20dd6fcea87d78f3a",
-    "lib/tera-strings/package.json":
-      "f05fb360974a4c7f30cba5358a500a2e0d3da216b991eb1472573c567d0d4091",
-    "lib/tera-strings/index.js":
-      "04da9795e3522f1dbcc0d64ba506a9ce00462618e6fe5b3cd1cd3f7a3ba5c471",
-    "lib/util/emoji.js":
-      "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
-    "lib/util/emoji.json":
-      "34e85a5aeb5de4e50d1b3f9fd6d0014260176556eb21dfb966d91cd9adbc6e7c",
-    "lib/util/index.js":
-      "6c52eb9e88ec8cee02327791f1d1a7d7af28cd5e7110a6bee67e7cff144d27a4",
-    "lib/tera-strings/strings.json":
-      "ab38194b1a2bc5b3e81fc3f79544da9b5c5c564c200253bbbece7b5bcb007b36",
-    "node_modules/async-limiter/LICENSE":
-      "e5a57cdd72e279910183799153134d0e749a5664fc459c8eacbecf72532b7db3",
-    "node_modules/async-limiter/index.js":
-      "d1d2c39b1020b964acdc78963912a5ddd95833b43fff4e50a5d7923781af2941",
-    "node_modules/discord.js/LICENSE":
-      "13ced2911e9f62633241cf65cc21b58a3415fa597cb5416dc3893dfcc553f8c2",
-    "node_modules/discord.js/browser.js":
-      "4464759f5f1fdd005000387fa71ab60788dca360ac08f179d577062e645bc12c",
-    "node_modules/async-limiter/readme.md":
-      "d2fa82adb4a15143291d13b5a459abcacb3d0c9aa7f4c51719cda29dcc24aa51",
-    "node_modules/async-limiter/package.json":
-      "8af9a8ac1e87c707533f83e10d3dbfd81650e6413af8fe9415e0ca71c276e58f",
-    "node_modules/discord.js/package.json":
-      "852354a39e137bbb6c1c154666cec8dfb43e1b89dfa23400479835fb5401ecd4",
-    "node_modules/long/LICENSE":
-      "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
-    "node_modules/discord.js/README.md":
-      "59432df2f4000a65fa63d0279a7a0345c30dff0608c79a935884a3532ea5a89d",
-    "node_modules/long/index.js":
-      "c039054b63880b23fade4ebe5ef031dff59eb8ed76f041356e945f4a5dbc45ed",
-    "node_modules/long/package.json":
-      "c1f7aeeec837c8d711279cd6d62e3fc16909f514a7a172907ce1a02f612bcc10",
-    "node_modules/prism-media/LICENSE":
-      "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363",
-    "node_modules/prism-media/output.opus":
-      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "node_modules/long/README.md":
-      "b054480abeb49201fb06cd06adc59fcf8e6b5f40af04016e6bc7e2727cea7883",
-    "node_modules/safe-buffer/LICENSE":
-      "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
-    "node_modules/prism-media/package.json":
-      "bcd8deebb4677b7e8432a3a6ed4902308d0e5bb1b6138ac126318c614247c2ee",
-    "node_modules/prism-media/README.md":
-      "26a086247b2cf211778af8255d6fcff24484796acbcbce9fe7d6619ce080b091",
-    "node_modules/safe-buffer/index.js":
-      "d58af21cb0518864d0c505742d1af71e5b5e1f142f4c0f27353aa0f431a616d4",
-    "node_modules/safe-buffer/package.json":
-      "371f017c1b0c395d37f0b9e5692ecb11ffe067a025521a83adff292994678693",
-    "node_modules/safe-buffer/README.md":
-      "d301a850808775718ddb510d4bf2a922d9b0afa72894e67137daa20fbeafac05",
-    "node_modules/safe-buffer/test.js":
-      "cd2be2c3b60eae7a2501ae5b75de366aa81f7746851da1a9b1891f7a8e076036",
-    "node_modules/snekfetch/browser.js":
-      "cae184ab61d7525f04ce2e13bf16d35f288fc9d40440ef23aa98b15f4b34f86b",
-    "node_modules/snekfetch/CODE_OF_CONDUCT.md":
-      "30689ab84a46948438588a34466e92b8a21275106ca0ade1e29933d61b68d3bb",
-    "node_modules/snekfetch/esm.mjs":
-      "1e012df6502e056ad2a7d15a65470700a63594f6193601b4bc0d8658ba06c0b7",
-    "node_modules/snekfetch/LICENSE":
-      "b4ac5f49c4d1dd2ef5dea8c9137cd42fa25ed34a3b01de67adf77825b582a961",
-    "node_modules/snekfetch/CONTRIBUTING.md":
-      "08e22a3880ab61cc0e868b9a1702bdb57469a8a8465f40264c4803812962cf81",
-    "node_modules/snekfetch/docs.js":
-      "e15445ed409fff5be3ec91a1a54deac561fe4f166069034f46f9552c0eef32de",
-    "node_modules/snekfetch/index.js":
-      "96ea3c83f165b092696a98cd5b8681a61bf37fb13f0994d6f606298dd202a87a",
-    "node_modules/snekfetch/package.json":
-      "bac49cef34178ad689ce51265b83dbbbef9141d8926ce8b50bf10551a429fe27",
-    "node_modules/snekfetch/sync.js":
-      "bf1f7118f0e1063b5b8155cadd54baf09f2f96b9d05c0aa80d69c19df9804728",
-    "node_modules/snekfetch/README.md":
-      "174cce5deb70463b6f0a4217068ae08e7e5c07d633610ea0ac38aeb72f47f219",
-    "node_modules/tweetnacl/LICENSE":
-      "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
-    "node_modules/snekfetch/webpack.config.js":
-      "8934a4469a3225b8d2c8939edd55b43b1cb3345680ad03119efba6709cc98454",
-    "node_modules/tweetnacl/CHANGELOG.md":
-      "01f93f791111dec58ee7b06e0a6ec48dd72de0b0af2271863474a130598d45c8",
-    "node_modules/tweetnacl/AUTHORS.md":
-      "64062ae412dbb0bcbec2ff3066d379d9d5656ea18bd3035d642436b1321fe117",
-    "node_modules/tweetnacl/nacl.d.ts":
-      "6f39ba3ed6e486a04d7f8de402f39c3e17ec2f61e5d3bad3939675f29e7c4a39",
-    "node_modules/tweetnacl/nacl-fast.min.js":
-      "3c5364d0bd5264eed59753977728dcaa8efa53113712727aebecba76bdaaabbd",
-    "node_modules/tweetnacl/nacl.js":
-      "cdc5941e574a4aa9200794cbabb64ccf9a96f213cc4403c06b7704f4c2ea8372",
-    "node_modules/tweetnacl/nacl-fast.js":
-      "99875a82ff922a9879355ed3f407fcd334b269a706bf864348bf72ac9933f24a",
-    "node_modules/tweetnacl/nacl.min.js":
-      "2d475f33ab99ae907450d077d931aedc79d0da45afe819de184ee229432b3c46",
-    "node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md":
-      "65fe41cbd990b3dd0f7062a6052b8876e221b29e1ed12eac186bf87436e244cb",
-    "node_modules/tweetnacl/README.md":
-      "8d51bbc20d2b5beb16aa7987a85a4baa82b5166abb8c4e53789f3896f2a89d61",
-    "node_modules/ws/index.js":
-      "44e5ede5364b966c1875c19f080c7cfb211d5aee0bc2827476353554533780e5",
-    "node_modules/ws/LICENSE":
-      "3de284c8e6fa7e8437eff6f53695471e0332129a5b42a79361e17b7637de94b3",
-    "node_modules/tweetnacl/package.json":
-      "1b2433f8f09effd48fef3a0d10ea3d47d6a4e3947aa01190bbbcbae79bb2387f",
-    "node_modules/underscore/LICENSE":
-      "57c78146cd350e9c88c82d4fa0c8a5369e7a8c4ae9fa47e80fe13e13aa9ff00e",
-    "node_modules/ws/README.md":
-      "6b1992a330b98bba96e529c5a92da51e1f8b06d2504f1e5392775a60f14d3240",
-    "node_modules/underscore/README.md":
-      "affd8fcfc373ca62525cdb92bcb28c61f9332bb40235d4545f9e373eac1275d0",
-    "node_modules/ws/package.json":
-      "006f259ba44a192555e9e41d38ac707ac84e1c51560a9c7811086ecace5af002",
-    "node_modules/underscore/package.json":
-      "7bf9965fe8175d4c4794c98fa5656b74d20ee77b41e5cae13ee1be70f62e8c71",
-    "node_modules/underscore/underscore-min.map":
-      "3aa26ab5a11396e7648da3559a419702e39f5ae1c3a9beec252a92f815d6e472",
-    "node_modules/underscore/underscore-min.js":
-      "a1b6400a21ddee090e93d8882ffa629963132785bfa41b0abbea199d278121e9",
-    "node_modules/underscore/underscore.js":
-      "4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed",
-    "node_modules/async-limiter/coverage/lcov.info":
-      "36514ef2734c75a575b9d7df1973ceee4c54127b550714329e6fe75053b116ef",
-    "node_modules/async-limiter/coverage/coverage.json":
-      "78698d7eb6c854f43c253973e78f8dbd6ffedd90255b0bfdc68fe4e95464b7a8",
-    "node_modules/discord.js/src/index.js":
-      "baa3caa30c7c8ed3d5c69f8d2810089115089bb39173100638b06841a4b500b8",
-    "node_modules/discord.js/typings/index.d.ts":
-      "03374bf02dddf5e159044f35b9a9e173e7483ded808cd06b4a1e2929b37fe64c",
-    "node_modules/discord.js/typings/LICENSE":
-      "51d2adad4518dab1ff42c645295c738f343a37e10f45510faefddbd12250f35d",
-    "node_modules/discord.js/typings/discord.js-test.ts":
-      "a7136726bc1ec68dd6c869be05dde4befe3632fe33698b90ada21e53e2529a5c",
-    "node_modules/discord.js/typings/package.json":
-      "c5c4c5cc939a6422cc52e7659d9dd9f59e67798dfa0f9bb86bba4eb9332fd5c9",
-    "node_modules/discord.js/typings/README.md":
-      "c0ddf95b5a43327043b1cee1a61b82c35a5bc48b6b6b37ff9a84dcfb06c990de",
-    "node_modules/discord.js/typings/tsconfig.json":
-      "c5806974fea776e01f50a18c937f8777b27e49a3e65154748e711c94ba31ac08",
-    "node_modules/discord.js/typings/tslint.json":
-      "57a0dd2f4799f53c655a34635ea8bc87ea91d7a7e26fc05027960977a3aceacf",
-    "node_modules/long/dist/long.js":
-      "0a9f7233bd72070945e022d005f0ca1e8c6f23806866040ae5a28f02a8aea444",
-    "node_modules/long/dist/long.js.map":
-      "35a5a1a27880aba011b565426b16725ee449ae515854d337470b614e70401b8f",
-    "node_modules/long/src/long.js":
-      "0d374703fbd10ade13a380dcaa090ad2a22db7837a1c0b56599d788fa1b84c4f",
-    "node_modules/prism-media/src/index.js":
-      "1589bf0c36163b07f01ba48827caf720cdbfdbd98fa64e2c5697719ff63a6373",
-    "node_modules/prism-media/src/Prism.js":
-      "25b770f7a9e32f145577bcbb5c00ac736ed96c1ab300f8e8e801ebf842bf7d17",
-    "node_modules/prism-media/test/test.js":
-      "11289db21f21ede5d36550d1b7f5b12102b6d54dffbd0b701f8c0030e47883cf",
-    "node_modules/prism-media/test/main.js":
-      "c8bd0955ee2361e87c2341f63d0275ec7f70fb74a9bbff06ae0ba96e3b34cc3f",
-    "node_modules/snekfetch/scripts/travis-deploy.sh":
-      "c1d6471f4129e2140dc8aef0056cbf7ba36c9a9874297f6aa8f1d00c50fb3aa4",
-    "node_modules/snekfetch/scripts/travis-test.sh":
-      "858fa4019fa42df7958f3eb08d2c247240522693fb192ad44a1d1203dfb31dec",
-    "node_modules/snekfetch/src/browser.js":
-      "929aad5fd55e540fca0de1a0603cd36c610bd79066bcf21a100042586e61f091",
-    "node_modules/snekfetch/src/index.js":
-      "2fb9da2a64587b1da6ea5661896e58fbfc7e64124dfd52b69901161f47f64901",
-    "node_modules/snekfetch/src/qs_mock.js":
-      "7933e11a0518bba71214b2b17c64efd72124edfa61de04a12e89c8fcb6935a48",
-    "node_modules/snekfetch/test/interop.js":
-      "74f501f8d2e8992268a901201052474096c0bdc5a48fb9d529d4e02eda24a21f",
-    "node_modules/snekfetch/test/server.js":
-      "d9536afe894cc02d0f0693dc8f9f6436184ecaece3e72b7b5eebe9e2482b4de3",
-    "node_modules/snekfetch/test/main.js":
-      "1a694fc72bcfa200d7c4f7172cabc67cb576947dbfc5dc919cc805240783bd82",
-    "node_modules/ws/lib/constants.js":
-      "9d42813a1c3f5ca79f80bddf29b6267bba5edc6973ab95db78eb8ea5232d5871",
-    "node_modules/ws/lib/event-target.js":
-      "3875814e265db71d489f4d24006c89de9ce09a1aff9470b2e46cb626358c60d1",
-    "node_modules/ws/lib/buffer-util.js":
-      "a632264aaaced7af9f70f2bfe315330a66ed61dbc99fbf5a0e3c2c6ad2d76c32",
-    "node_modules/ws/lib/extension.js":
-      "4f46e10ed8895fae180f6ee452386a1d4c39fd2139ddd421a85f098e65704024",
-    "node_modules/ws/lib/permessage-deflate.js":
-      "4e41b12802ea40b8a3edbe15cc23f43fa6cef17cb2fe8fc9b1298da9713a0f16",
-    "node_modules/ws/lib/receiver.js":
-      "6c4185f26b590d1bb3d23a0f8c5acbe951a85aac0b772484adbfdb40a32805bf",
-    "node_modules/ws/lib/sender.js":
-      "a398ddda4272f62af749dd851467a41a7d9f38fe11ae499f39612955386e0a9f",
-    "node_modules/ws/lib/validation.js":
-      "30b73f46fd608c8a837bb2f0a708d173f0f9fc6bd37c8dc0fa6bd0c39b4ae61c",
-    "node_modules/ws/lib/websocket-server.js":
-      "438aed7916fa13655be9e929a0f7b37fe3e532188bf8e07ce24d359c2f95629e",
-    "node_modules/ws/lib/websocket.js":
-      "4a629744585a5da6dbf33973ea123ad1bbb9196aead16717a49f17ceb7c21bc9",
-    "node_modules/async-limiter/coverage/lcov-report/base.css":
-      "a8d0046d163e8ba620de95c3f3d30844d72b3037d6e28213e34f4e711fda710e",
-    "node_modules/async-limiter/coverage/lcov-report/prettify.css":
-      "ea3fe433f9450698ca8a230271688e7aeec12f99c8a7ef6c94379abb38f27823",
-    "node_modules/async-limiter/coverage/lcov-report/index.html":
-      "0e517f457fe888e5c84ed73f8c51b884616d796d43b01f8ddc58afbdc9c44dd0",
-    "node_modules/async-limiter/coverage/lcov-report/prettify.js":
-      "67126b6cd4d1b2305f8c8fa5974971ebe90ab2b0f6e209ba2f1c6e4af05f0207",
-    "node_modules/async-limiter/coverage/lcov-report/sorter.js":
-      "f36b3bbab81ff43151b2e5f45dea4770e6e3f2436ed41060792402015c26944d",
-    "node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png":
-      "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531",
-    "node_modules/discord.js/src/client/Client.js":
-      "c20925532195b286409774e410b7730296f3d6b4d21c5751fb133938b511e22c",
-    "node_modules/discord.js/src/client/ClientDataManager.js":
-      "50f52ec1c57108367948a09eb9d1d67a83d8997291c9f2a5378850b9d0ee3f31",
-    "node_modules/discord.js/src/client/ClientDataResolver.js":
-      "bfc5a319ecbc084e0a2b1a0ea8c50b65bb6bf10382db71695a0e072b54981ba3",
-    "node_modules/discord.js/src/client/ClientManager.js":
-      "f6b162f6ea583dde07d971be2a6f81869dea4ea4cddd4fa5d106a7855fbae3fa",
-    "node_modules/discord.js/src/sharding/Shard.js":
-      "ef317fdb498635dabdd288f90052902d2fd8fa06014152be5289aa1c86dc6a97",
-    "node_modules/discord.js/src/client/WebhookClient.js":
-      "960702c0f8dc99fc3166744bc5b87ccce4aa608b18bcf3f6ac2e71d0b99c9c69",
-    "node_modules/discord.js/src/sharding/ShardingManager.js":
-      "6f73036cdee9e357d482152ee7b550872d2c4abc099c58fe7c8e9ec3e0752d58",
-    "node_modules/discord.js/src/sharding/ShardClientUtil.js":
-      "0f4d3374ebf1bbe6dbd7415c5a4753a0d9734b2f68acf598a5a625c4e64b203d",
-    "node_modules/discord.js/src/util/Constants.js":
-      "e543bb447482ec88fabe3001d1fed0380558c3032173e2ec36b89d2bb2550300",
-    "node_modules/discord.js/src/util/Collection.js":
-      "cfacca0d987a46229f7bf1bd7032e7bf905eaf137643fdc89e3f7e5e645cd645",
-    "node_modules/discord.js/src/util/Permissions.js":
-      "02d0321675ca016b71a17be4e454d8c052594cad2c94a3b80242777e8e58c3ea",
-    "node_modules/discord.js/src/util/Snowflake.js":
-      "92c86b1f2be22bd5d9cb072a96d6717c3130efbae57857c0597dbbbbad5a3d06",
-    "node_modules/discord.js/src/structures/Attachment.js":
-      "db163b10219fb0c77ef2243dc9a6c654d48675afc03ab2b1ebe4fec2a27df215",
-    "node_modules/discord.js/src/util/Util.js":
-      "76629e8f3e4b8134338be6dd808b94daf954cfd7cb36fed4b6bc9756701501ac",
-    "node_modules/discord.js/src/structures/CategoryChannel.js":
-      "be47143cc6e2772ee4fa53a3ec719f452d8b692486f0a0a221e8cd2e79c1b58f",
-    "node_modules/discord.js/src/structures/Channel.js":
-      "b92fc5f6fc629ae0cc084381b5ab8fdfecb079ed9c50ec9ebc1454283756fe93",
-    "node_modules/discord.js/src/structures/ClientUser.js":
-      "39f2cfcddf55110623fdf9e153ada015b488b94f52322485c6f5fce64ec8d023",
-    "node_modules/discord.js/src/structures/ClientUserChannelOverride.js":
-      "ac03789ddd4f4b7064ae591337389017bd11943450aed9d7c1f8fd39767503fb",
-    "node_modules/discord.js/src/structures/ClientUserGuildSettings.js":
-      "786925313299f794c768287ba4bd2587ac0d32200518ca3bec3d6d8638da5d41",
-    "node_modules/discord.js/src/structures/ClientUserSettings.js":
-      "da0bc3ae8a00d27b9b2e1950c01e96e3782173e640607405d6f5d88f28781d32",
-    "node_modules/discord.js/src/structures/DMChannel.js":
-      "01565f8a16e5f03060bd75465f6fbddbb44187a8301d7e0ff5e42db3740688f6",
-    "node_modules/discord.js/src/structures/GroupDMChannel.js":
-      "43e1ea5e3ea379970e2ef54d491d3b25d84db350cd9aabeded52f95dcfb9b386",
-    "node_modules/discord.js/src/structures/Emoji.js":
-      "59c62cc40f81bf644f75c25d7420718a31c03fcd2be3603b92d458f6a2a13dee",
-    "node_modules/discord.js/src/structures/GuildAuditLogs.js":
-      "a8fc442811f34cf7ceb1bedc3bea7b89ed2263e9106cdfcefdd495c7475538b9",
-    "node_modules/discord.js/src/structures/Guild.js":
-      "6ee4054907e46c94cd5127b12bc02c91a63ebdc295a8f4a4ff261f1f514739db",
-    "node_modules/discord.js/src/structures/GuildChannel.js":
-      "bdb7dbc25561efc282c88c0e7bddbe970bf6bff5be7c8eec6e53d54bc3e0e747",
-    "node_modules/discord.js/src/structures/Message.js":
-      "c0a919af7b99b7f681912c537642c702b10da2ad5dd66bde7808ed612c38ebf1",
-    "node_modules/discord.js/src/structures/GuildMember.js":
-      "9169e2c02ca5c84aceb6ae92e71d17cf6d8d1c1ab5092bd6456d44ca08be4f59",
-    "node_modules/discord.js/src/structures/MessageAttachment.js":
-      "624ed360f60355b32e43ffa9da3e4dc8e641a7c846c3d64e1d6e6dc9c1b9817d",
-    "node_modules/discord.js/src/structures/Invite.js":
-      "721422696cde13b9edf39f7ef087a925dee0cf4c9a89f7c41bba569e999fbbfd",
-    "node_modules/discord.js/src/structures/MessageEmbed.js":
-      "1e6566e92a2d897c85289bc405da17cf0ec4957e4524a04880540a91eb008b24",
-    "node_modules/discord.js/src/structures/MessageMentions.js":
-      "a709cdd8fa0c8f279f953b9c3e632e25bae4b4abcdb11a24cf89fd460322aada",
-    "node_modules/discord.js/src/structures/MessageCollector.js":
-      "acb2e620e550e6a716e44e6dedeae29d9087bb437ef97e2fa570ea095212d829",
-    "node_modules/discord.js/src/structures/MessageReaction.js":
-      "7fdc9e8e685b16acfbfbbe8c8a46bf0876ccfb1a015d0d2e8de896c68f1fa2e2",
-    "node_modules/discord.js/src/structures/OAuth2Application.js":
-      "a9e9b653cd121f2091e4370fdee7f1788a682d0622303a11c2b427a25bceaffc",
-    "node_modules/discord.js/src/structures/PartialGuild.js":
-      "5ccd80d475b03c405aa50c3dd74d91fb546af6b647587327c9560db66b578f01",
-    "node_modules/discord.js/src/structures/PartialGuildChannel.js":
-      "8be2e7543d6fde105e5815e52ad607671ba7682fb822ec1559ed2932abbb4cb9",
-    "node_modules/discord.js/src/structures/PermissionOverwrites.js":
-      "4a27d88ba9aaf89264a3468da14775bf9157fba901b5189b85ab4be68f752888",
-    "node_modules/discord.js/src/structures/ReactionCollector.js":
-      "c72c499bd6408a257dd31159ad2bbf287652bbfca36b1ea15df56f228160f855",
-    "node_modules/discord.js/src/structures/Presence.js":
-      "30ebe1b888ca9085866f8ba75e02eed1d718dbaa8234f85ba9fb2d8f4244d907",
-    "node_modules/discord.js/src/structures/ReactionEmoji.js":
-      "a8ba5074d4b3ef16d2c612775549ebd843da39f92ad007c8c2fca40a25c8fc9a",
-    "node_modules/discord.js/src/structures/RichEmbed.js":
-      "489b9f96d342cac1aa8424d51da885a6e1a62b7fed28b39107323287e2aa3364",
-    "node_modules/discord.js/src/structures/TextChannel.js":
-      "2c3219f4ea4391aae76605c4330394feda44ee29f23c4f5871f9962e94b73296",
-    "node_modules/discord.js/src/structures/User.js":
-      "97f68a891d271ae42b17647c69d5d3645176df9ce3e148bb24fd9d7cbbeb7a03",
-    "node_modules/discord.js/src/structures/Role.js":
-      "7f86420bbf46e259f26239dd70a00544ff349f6659b909bccf716b3f089ae9e3",
-    "node_modules/discord.js/src/structures/UserConnection.js":
-      "bd48a7e29190464df38d5656b7e5b80b710739564c24c72ac62af518aef7f5f7",
-    "node_modules/discord.js/src/structures/UserProfile.js":
-      "e293164eca3d2a3ff6516ecc4ef948aeb6bd8193a6e406d585bebdf3d87157c9",
-    "node_modules/discord.js/src/structures/VoiceChannel.js":
-      "bc8d744d1ff534894568b94b115c8e8a548db0eb742d5e4f6d9da294bc6185fd",
-    "node_modules/discord.js/src/structures/VoiceRegion.js":
-      "9ce4663e0c2c3cf8009cb777a952067fdd9248be9b390a0135df720f9230d462",
-    "node_modules/discord.js/src/structures/Webhook.js":
-      "c1febe5a2e34d3474bee1d1b7fc85f3a43bf1dec9695b2d6ec33abd9d409025f",
-    "node_modules/prism-media/src/util/Constants.js":
-      "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "node_modules/prism-media/src/transcoders/MediaTranscoder.js":
-      "46584f90bfa34d0f1a52bcfa689ab511a81f31ad91846c2070fec5aff7cc59a0",
-    "node_modules/prism-media/src/opus/OggOpus.js":
-      "4b03e790aafb48ec7f8b0b4960df60d0e286032fea617bf5f86bc3330d1641ba",
-    "node_modules/snekfetch/src/node/index.js":
-      "d649a7fcc1d3f642cf5dcb53aedf9075529782397844310fb8b122ed6454d392",
-    "node_modules/snekfetch/src/node/mimeOfBuffer.js":
-      "89c8b4d0029018f26d20e9c534fd63ae69c33134f30e27f04fd2f3cd49f9a716",
-    "node_modules/snekfetch/src/node/mime.js":
-      "d3cc6e09a85d03e7aa86a536f24a19068ee7c458318937ecf20117237cdd8c99",
-    "node_modules/snekfetch/src/node/FormData.js":
-      "3595cc0477792eb164ae8b6f3b76c75e130cc4e63341642c0b4cba0ce932ae17",
-    "node_modules/snekfetch/src/node/mimes.json":
-      "32aba355c8a6cde2b0664fce51cc83a5cfb744109fa7866205d0e47c7ca289f3",
-    "node_modules/snekfetch/test/node/file.test.js":
-      "f60f34d1cc894906d511170ed6b8e4adbbc21fc1ba0c1878a40dad7ac3c296e6",
-    "node_modules/snekfetch/test/browser/http1.test.js":
-      "ad6180d585bec757a9a988700d5338a3c12263ce837bec3b0cf84d295e088714",
-    "node_modules/snekfetch/test/browser/http2.test.js":
-      "b9788df6e7884195f5b06aa1cb6fcaa88c7b8dee3e1e6cccbc7f3b9edeee92d7",
-    "node_modules/snekfetch/test/browser/main.js":
-      "6dff4eb0e410d20ed5e1e93b0d906b126d9577eef6ce9e2dedda18d709ed2c8b",
-    "node_modules/snekfetch/test/node/http2.test.js.disabled":
-      "09a6216f3dd3ba6390ffd4f18af08a1272c0228acebf5c92366fd3f52e2f8bc1",
-    "node_modules/snekfetch/test/node/http1.test.js":
-      "8805e8f62b5914ecf2dd38b1a34015c478bfe4948b5fa8fdb60b5088fb0e0ebe",
-    "node_modules/snekfetch/test/node/sync.test.js":
-      "268f58ecf2d8de1d2289d10c94af5654402d0f3880e6b37ca1b6294dff62a5d1",
-    "node_modules/snekfetch/test/node/main.js":
-      "18427079c68df824252362a80ba31b0b574081a52ad3769768ebc4442f88ec2f",
-    "node_modules/snekfetch/test/node/util.test.js":
-      "4732329a53400e0d9f0900513b566a92ab85a9f38abae61aa572eb2d8f7ac2a6",
-    "node_modules/async-limiter/coverage/lcov-report/async-throttle/index.html":
-      "e20de2655b2c53a2c922d3c0e482920fbb5b63d7ce09b104aa282d010e475910",
-    "node_modules/async-limiter/coverage/lcov-report/async-throttle/index.js.html":
-      "6bc7ffe9c6b9760c6ba1a742360b2d802db03cc45a22452ea209cfd35c8dcc43",
-    "node_modules/discord.js/src/client/actions/Action.js":
-      "2d2f6bdc82df443ea122b3c53cd3d8859a834899a263090e5747588de1e22922",
-    "node_modules/discord.js/src/client/actions/ActionsManager.js":
-      "e254f38d9d4bf1bb0d735cf1983c84777c0143b413a589e7d5117cd525f5747d",
-    "node_modules/discord.js/src/client/actions/ChannelDelete.js":
-      "941e0c8b46ad867ab9d6a2f10768b7a6aa1d494bbdce7b6af4ffd836a7bd00a3",
-    "node_modules/discord.js/src/client/actions/ChannelCreate.js":
-      "db5291edf18e909ee4b28e7d2623be14686dde4390805810b614569ea0edcc7e",
-    "node_modules/discord.js/src/client/actions/GuildBanRemove.js":
-      "e7b44694512a5a1331e640406804d92823fdcbb7382f2baa5af7db1541a8f1a5",
-    "node_modules/discord.js/src/client/actions/ChannelUpdate.js":
-      "9dcdb1105c2f65e5fb208febeea97b43d590a44fcecd83b48cfaf61ef57c802e",
-    "node_modules/discord.js/src/client/actions/GuildChannelsPositionUpdate.js":
-      "466b35c97507be3add7c81195e0b43db53dfcc82557ebc6645d22721373c78ab",
-    "node_modules/discord.js/src/client/actions/GuildDelete.js":
-      "0c11aaeeb86e4fed077bbdccb84ce68054e41f97c5c604749f29da37445439f4",
-    "node_modules/discord.js/src/client/actions/GuildEmojiCreate.js":
-      "88d99d7e3c01a3113a6f99d5b03db382f09cc84ce7f733fbad1c48f3a0aa0298",
-    "node_modules/discord.js/src/client/actions/GuildEmojiDelete.js":
-      "a234915c493cbfab1987ce9da9613b01ee2054954a97f5e1e8740922488cbfce",
-    "node_modules/discord.js/src/client/actions/GuildEmojisUpdate.js":
-      "2c4bce76d4a52f0c04392517ae5bd7dcaa1974b0c516e2b1ce579118c81a3196",
-    "node_modules/discord.js/src/client/actions/GuildEmojiUpdate.js":
-      "71ab80567e9bfe61b2bb316e96c32dc6988c29475e9ae3112d353ef5a079de64",
-    "node_modules/discord.js/src/client/actions/GuildMemberGet.js":
-      "ec380a16a450ea544dce7bca154a65fcb41651907d4ac3e60d109dd8ae8f0015",
-    "node_modules/discord.js/src/client/actions/GuildMemberRemove.js":
-      "00f6ec5b412122f8b1182c63855ac0b5b86e8235fab3e7340fa652a23032ffac",
-    "node_modules/discord.js/src/client/actions/GuildRoleCreate.js":
-      "252febc72e6d3551b85e1e782b733862a05aa865f8e266e0049426b39768f354",
-    "node_modules/discord.js/src/client/actions/GuildRoleDelete.js":
-      "c4058a39575c17a5efcf1c8cce9297f9beca4380bb1a168c10009207a8f9e18c",
-    "node_modules/discord.js/src/client/actions/GuildRoleUpdate.js":
-      "f910f67706c252fd3eb3efc43f3bc83aaedd3066540bfa8d6baabf4a01a6d05d",
-    "node_modules/discord.js/src/client/actions/GuildRolesPositionUpdate.js":
-      "0ab9b804d288a35f960246f749e372186cc6e6f5b5a7463837a79f5adbb9c0b0",
-    "node_modules/discord.js/src/client/actions/GuildSync.js":
-      "b385451705bd3d5c0fd754ab398ba97cbd51777a0d3337252b11c7c5b0d263cb",
-    "node_modules/discord.js/src/client/actions/MessageCreate.js":
-      "b8c0cafbae81d29c6c23b57663254e99bc067b636f87f9e1395dc7afcad1c724",
-    "node_modules/discord.js/src/client/actions/GuildUpdate.js":
-      "340661d69670e4ef00eb4e5535be56787f6cead1b6f589ccc08900b50904a507",
-    "node_modules/discord.js/src/client/actions/MessageDelete.js":
-      "eb6c995d376188db2fa2a3c0c4d2c55b477b9b430afc566bb9754e36ecc25df9",
-    "node_modules/discord.js/src/client/actions/MessageDeleteBulk.js":
-      "9f043dbc0ed91a8a27ed316aa6de325c78eec382b4d810abe798cd7550599eec",
-    "node_modules/discord.js/src/client/actions/MessageReactionRemove.js":
-      "a26f093bbfceb5cf65d3443cd895d8a813a8d306f2c45cfdf437df6e760b32a4",
-    "node_modules/discord.js/src/client/actions/MessageReactionAdd.js":
-      "edd38339c8ebcb52557a11b15443316cbb1820f77bfe9a920fd22e074f9952bd",
-    "node_modules/discord.js/src/client/actions/MessageReactionRemoveAll.js":
-      "4be5d6b002d23cede6f85fbc3916b7fedd3ded2fecfdb2a7d337ce071e723c52",
-    "node_modules/discord.js/src/client/actions/MessageUpdate.js":
-      "1860c914236e2af6c5d3708ea6dff6eeda59e49fa50fa0f27c399baec7df2976",
-    "node_modules/discord.js/src/client/actions/UserNoteUpdate.js":
-      "a90634893173f8396a45b28aac33b28feb12fb223c239fdc6a66c6bc25bff30c",
-    "node_modules/discord.js/src/client/actions/UserGet.js":
-      "31cf5411d491651e8d68a534a0159bb37088796e3e5ae311c485ee4f8343baa6",
-    "node_modules/discord.js/src/client/actions/UserUpdate.js":
-      "0b375c73692430309590aa4464a3605f88a2262d99c7945826adda31679a4eb9",
-    "node_modules/discord.js/src/client/rest/APIRequest.js":
-      "22805b96297b8c27a441b449fa02d8b826c6f49bcf78251aeb8ada74a04cd7e4",
-    "node_modules/discord.js/src/client/rest/DiscordAPIError.js":
-      "09ff2e04947a53dc88108d4320df5cd348c6290a09ec43db470ea12a9569c9a5",
-    "node_modules/discord.js/src/client/rest/RESTMethods.js":
-      "c34a5eb3c9f2055923a46ad62212a2b4275cd0fac799d9f4f567249846460900",
-    "node_modules/discord.js/src/client/rest/RESTManager.js":
-      "3c687597924c9a937c40678c3c173e9f801c06495ffc90c54fad7a4283371f22",
-    "node_modules/discord.js/src/client/voice/ClientVoiceManager.js":
-      "2bd5edf7e4ad7477e60426f74d7ae376005cdbb465e7c17243f25647d8fbe554",
-    "node_modules/discord.js/src/client/rest/UserAgentManager.js":
-      "57c2bbd54f99611ccc0fa422d4b773555c2ea27354dd4aed08bd4a680aeed7fa",
-    "node_modules/discord.js/src/client/voice/VoiceBroadcast.js":
-      "330640144acc82e88a7307fed8095fcc7aab2a8809500434d1c91ba41e43e801",
-    "node_modules/discord.js/src/client/voice/VoiceWebSocket.js":
-      "7d1bcd78df2ccf343cae195474acf9aa304ebe8cdd707586b974623a7cb1844c",
-    "node_modules/discord.js/src/client/voice/VoiceUDPClient.js":
-      "13ae536abb57df85c3707d7245095955449e7c5b1cfa29f8b08712aa86743c0d",
-    "node_modules/discord.js/src/client/voice/VoiceConnection.js":
-      "976d8cd777a851a33dccdeb35c7fe6ce170e157f49b9f6ff9942555d0277f6b6",
-    "node_modules/discord.js/src/client/websocket/WebSocketConnection.js":
-      "14b6fb255426db5b9d0641e647ec7a829fd2c977258d405cd47ae6e2497df83c",
-    "node_modules/discord.js/src/client/websocket/WebSocketManager.js":
-      "4ced20e641663f5ee1f323426f96e0aaefe1b8d78ef4e9099b71ef879248334d",
-    "node_modules/discord.js/src/structures/interfaces/Collector.js":
-      "7fb34087ba1a139bdcf923dfbb7e2650d8183e323a2b05ace512af02f0459cb6",
-    "node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js":
-      "f937a5703a0ca5d874961c020475942e70f308b961f0fdb4d701568d4160e8f0",
-    "node_modules/prism-media/src/transcoders/ffmpeg/Ffmpeg.js":
-      "e7cf1d92a1b071911293df2df4f96eaf99225815b4cd1512389702218b71a129",
-    "node_modules/prism-media/src/transcoders/ffmpeg/FfmpegProcess.js":
-      "56fd931e386e752df5ebf5f10b2a4bc688cef906e615d1a91a38bb974dbf0e50",
-    "node_modules/snekfetch/src/node/transports/file.js":
-      "b7fa00f7b7e489afb3976f7f524f4129a6107ba17f30b778fff26d7114b2708b",
-    "node_modules/snekfetch/src/node/transports/ResponseStream.js":
-      "10da93bc4e372734eecda599379b23d67e584a464f0c22fdbcbbc58a1b62e60e",
-    "node_modules/snekfetch/src/node/transports/http2.js":
-      "14795fb4cbc641552a582dc5ccd6f781bd69e0ea7a705bd5bfd590ebab9a9b02",
-    "node_modules/discord.js/src/client/rest/RequestHandlers/Burst.js":
-      "6238ff2b9adb6778984273f44c300782bd9faea46e359e6e7ec47f7ec73f23b7",
-    "node_modules/discord.js/src/client/rest/RequestHandlers/RequestHandler.js":
-      "cc6e3b3dbbec3602eb7b3a24b1ff8ec8ebbe5313cb5de30ecd083fec1af87ae7",
-    "node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js":
-      "1a0fe7a5aa567b3ea83e98944740dcc20c12602e915573a0ba5e6e757427a52d",
-    "node_modules/discord.js/src/client/voice/opus/BaseOpusEngine.js":
-      "8ac00bedc6e1af05af78c8d94547af72292ce695cf25baa5b2d16cf829aa832d",
-    "node_modules/discord.js/src/client/voice/dispatcher/StreamDispatcher.js":
-      "61f8d48727ba208efd1ca1a5cea9796e12a6b1dab97e4e3e122954a4b16de3ae",
-    "node_modules/discord.js/src/client/voice/opus/NodeOpusEngine.js":
-      "4e365cac37cce0342e6ddc7e52878499010b9f0462825d3d2f92c6932338ab2e",
-    "node_modules/discord.js/src/client/voice/player/AudioPlayer.js":
-      "1a7af611e131cab48852ea506de593dc9586559521f812248a76b58291cb6a02",
-    "node_modules/discord.js/src/client/voice/opus/OpusEngineList.js":
-      "717087afd02f9f5095f1c56e9a5863d930864fbf31cb55e12c0345fafe51f08a",
-    "node_modules/discord.js/src/client/voice/opus/OpusScriptEngine.js":
-      "1c0bdd7f0d66946f3e81beaf1f58dcdac2326912cad3fa146d39e2f92bf9c3b0",
-    "node_modules/discord.js/src/client/voice/receiver/VoiceReadable.js":
-      "f61ba725802393f41ac6dbc1ac01391949607317bccee2ff24f24b6bb0047379",
-    "node_modules/discord.js/src/client/voice/receiver/VoiceReceiver.js":
-      "444b7babacb193969df63b02a5f5bfcd2f49d08831a9574b29d6cc1a8201d763",
-    "node_modules/discord.js/src/client/voice/util/VolumeInterface.js":
-      "f8d2e770d2e0991e18c046045b4c1dfdcc6ebd45af908da02f77f4704df0de7e",
-    "node_modules/discord.js/src/client/voice/util/SecretKey.js":
-      "f0807c9b05e52db42e1c3ed30a262b86e7e3dbb50ba6a836bf055388902bb99a",
-    "node_modules/discord.js/src/client/voice/util/Secretbox.js":
-      "de5cf363a733f82b55693dfb30eedd24c55fcd4ab3dd21f32419ef60126b2e3f",
-    "node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js":
-      "28f55b3fe67ad93b3b39465e90b34885822a3ba11bddc7b992640d8ee59557b8",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/ChannelDelete.js":
-      "b69315b60ee5e9a20e1f6da6172d96b5b5221d95f10821b8a4ad2d127f5666c4",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/AbstractHandler.js":
-      "cb8fe25216d4cfe0904bce3d321058a231b0d3152bf7bd8c02ad8a5ca28bd064",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/ChannelCreate.js":
-      "1b5fee5ebdf8bc1cc7fa5d9dd5d7efba100e602c0038cb90424692789eaf9d2b",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/ChannelPinsUpdate.js":
-      "6335dcd09c2aecdceb13c5872e6b65ca0311971bedf2937678fb993f3ea624fc",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/ChannelUpdate.js":
-      "d644dc3b0ddc442a15f8d0e711dff015585cd9f56d925aeb3c199b017ee78f45",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildBanRemove.js":
-      "061479d059320c8241abed514b3927f653a539bcf4c46a58a5748bb5b40ec128",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildBanAdd.js":
-      "8e6bb96f89b0bc976c5a91a4018517e0ecd06ef341bc3b94405fe68ba7e20e8b",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildCreate.js":
-      "35599d9ba8e81c9390103a258240edb74aa56913226f73ddf3ffa48ae4828067",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildEmojisUpdate.js":
-      "a6280095d3909e541f4ee089bb849f8fbd2941e456712f74f7c3d321de9dc598",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildDelete.js":
-      "c17c12f5e35eed8ef782e43e7b7144e86839e5f996ff31821567a8c5efe63f92",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberAdd.js":
-      "41624dff1a825a054e7f39782e1bf65f5853ca03136fc6cb1438f53bfee3caf3",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberRemove.js":
-      "1a4bc9b910d7ac86f40206b04a326a79c3a3ac02d42670f3de51b93ed43fbaaa",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberUpdate.js":
-      "f03244e4a46dad6189862c218dbf94fa3f7bc1579a0dfd995380cb82120e6e39",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildMembersChunk.js":
-      "6fcf50c5ec098f3f0a5a07da5634e0b7b8d0b84c83ab8f26d82ae5fc4f290398",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleCreate.js":
-      "ffd051c464769f3848f2d3db200a1b6ca4e3e9f5074b3622d00da52c1b5fe714",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleDelete.js":
-      "6e96ce1fa9830b6ddeec779c6328fa80fa4640af4d1fb009058413d07e1200e2",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleUpdate.js":
-      "4ea88ed95bbfc936b7d9e084640c02c08ca4820d06bb067c6e7394b196dab036",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildSync.js":
-      "a85e075d1ac8032bda10e82cb6a99cef826948b9906288a791e87917efcc8461",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/GuildUpdate.js":
-      "edfe578f8e1770062ae1b7316a8db60501bf7b95fe6f83c5eb32c4d7060348e2",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js":
-      "82de463aceb3d1fbc9313ae7f0f088e63e99347cc43c94548e91d65ec662d264",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageDelete.js":
-      "9384ae6ad03a31387c1e2651fc5a4e3ef748a9c27b5b64c25d09b72a0f6643a0",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageDeleteBulk.js":
-      "d3d66a0606b4e648b6379a12362e480eac76b8317fd81c39096d615c880d69c4",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionAdd.js":
-      "23ae22fb711fe84a7b7203503a50d97c232f5166c8ef61722d934dd338e5d58d",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionRemoveAll.js":
-      "799144b188f379716cb2e352020aa09de89575e7835e263b2876b928f00c7299",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionRemove.js":
-      "4dc16fd973c1032711da8b73706b242926195bd100ae7871983d2b41dda3583f",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/MessageUpdate.js":
-      "9a3a8256ca5cf0e03e5560a20c28e5ebd4d066e262953e51bcca9628e55d79fc",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/PresenceUpdate.js":
-      "645e67ee098c0b8ff6e6a4d6038202c55f00eb0cfa83a5f58513d0f9ed025919",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/Ready.js":
-      "24d7910a0a07f8e6193848cb66bde2ee7735904c9f38d0ffd5d0b16160cf9ec2",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/RelationshipAdd.js":
-      "3066077f4355871381c75439c70c8ecde6d8d2bbb894ec2030e5ca29f40ce6f4",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/RelationshipRemove.js":
-      "5e2349775849724d54a57a10831a3f8275a4f9a4e2c18d787264926bbc289902",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/Resumed.js":
-      "45c7b26ac9894570250ae48b2684ed65a0fe72fbc69cb6fa7407dd1a307c529d",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/TypingStart.js":
-      "93a83524644c0aa06051f2742f8bed747e3baaa795ccd3df5364eebd6c15aba1",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/UserGuildSettingsUpdate.js":
-      "8e04c5b51bca5df346e85078b7ea22917bc5513e50be134004cb935908b5f5f1",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/UserNoteUpdate.js":
-      "ce26c5174d2f26d66674ec6e40f6ffc728deb28d865dfad15111fb165814b647",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/UserSettingsUpdate.js":
-      "d457549a5bd2b4cb648db3f6d916ff895c54db07d9e286f92d5969bf1d3f1cd1",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/UserUpdate.js":
-      "53c1c37d282b63cef390ebb1a3600220d02c478995531aad03cb76a50c32f966",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/VoiceServerUpdate.js":
-      "fe816e35fa7600e0f2e9e0d80802339fdb956a030d2499106f78a3704d1996e3",
-    "node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js":
-      "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c"
-  },
-  "defs": {
-    "C_PONG": 1,
-    "C_CHAT": 1,
-    "C_REQUEST_GUILD_INFO": 1,
-    "S_PING": 1,
-    "S_SYSTEM_MESSAGE": 1,
-    "S_LOGIN": 10,
-    "S_CHAT": 2,
-    "S_WHISPER": 2,
-    "S_LOAD_TOPO": 3,
-    "S_UPDATE_GUILD_QUEST_STATUS": 1,
-    "S_GUILD_QUEST_LIST": 1,
-    "S_GUILD_INFO": 1,
-    "S_GUILD_MEMBER_LIST": 1
-  }
+	"files": {
+		"index.js": "e1fbee3a0ea439944b510e498bcda24197ff57c45e53b6e128c5c971d57ae1ba",
+		"module.json": "2eb44198b6bad31b5df1029413efd4a15cecd82097238376479db594ecd93aae",
+		"package.json": "65577d0bed1fbd0be0edeb482c450a67e86814523d2705d3867e858a52d776db",
+		"README.md": "fb84ffb0c455d81e4ac3d4175400a7f4f5cb8bd7d04f036350ce9a3023546c87",
+		"config/sample-config.json": "d73abab37e1905d61890a73cbd28e28ee3ca83bcd1b1024dee082046e2f87ec8",
+		"lib/teraHandler.js": "00cb4696c220917d9d0fe3406c02b8a15ff1e7bdae44fbe8f4c927c1145888b4",
+		"lib/discordHandler.js": "d37d9bdb50570457d5d72013a3c616ce9ad10228964e2243fe480711911b9d4a",
+		"lib/ipc/IpcClient.js": "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
+		"lib/ipc/IpcServer.js": "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
+		"lib/sysmsg/index.js": "21628019c4df61fe0247e7494f90f6a0ab7bd343829d0103162ca024ac635d6f",
+		"lib/sysmsg/package.json": "ad8ce84aa4b3968b5aaae6b481807cd867c4c418d70e8ef20dd6fcea87d78f3a",
+		"lib/tera-strings/package.json": "f05fb360974a4c7f30cba5358a500a2e0d3da216b991eb1472573c567d0d4091",
+		"lib/tera-strings/index.js": "04da9795e3522f1dbcc0d64ba506a9ce00462618e6fe5b3cd1cd3f7a3ba5c471",
+		"lib/util/emoji.js": "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
+		"lib/util/emoji.json": "34e85a5aeb5de4e50d1b3f9fd6d0014260176556eb21dfb966d91cd9adbc6e7c",
+		"lib/util/index.js": "6c52eb9e88ec8cee02327791f1d1a7d7af28cd5e7110a6bee67e7cff144d27a4",
+		"lib/tera-strings/strings.json": "ab38194b1a2bc5b3e81fc3f79544da9b5c5c564c200253bbbece7b5bcb007b36",
+		"node_modules/async-limiter/LICENSE": "e5a57cdd72e279910183799153134d0e749a5664fc459c8eacbecf72532b7db3",
+		"node_modules/async-limiter/index.js": "d1d2c39b1020b964acdc78963912a5ddd95833b43fff4e50a5d7923781af2941",
+		"node_modules/discord.js/LICENSE": "13ced2911e9f62633241cf65cc21b58a3415fa597cb5416dc3893dfcc553f8c2",
+		"node_modules/discord.js/browser.js": "4464759f5f1fdd005000387fa71ab60788dca360ac08f179d577062e645bc12c",
+		"node_modules/async-limiter/readme.md": "d2fa82adb4a15143291d13b5a459abcacb3d0c9aa7f4c51719cda29dcc24aa51",
+		"node_modules/async-limiter/package.json": "8af9a8ac1e87c707533f83e10d3dbfd81650e6413af8fe9415e0ca71c276e58f",
+		"node_modules/discord.js/package.json": "852354a39e137bbb6c1c154666cec8dfb43e1b89dfa23400479835fb5401ecd4",
+		"node_modules/long/LICENSE": "3ddf9be5c28fe27dad143a5dc76eea25222ad1dd68934a047064e56ed2fa40c5",
+		"node_modules/discord.js/README.md": "59432df2f4000a65fa63d0279a7a0345c30dff0608c79a935884a3532ea5a89d",
+		"node_modules/long/index.js": "c039054b63880b23fade4ebe5ef031dff59eb8ed76f041356e945f4a5dbc45ed",
+		"node_modules/long/package.json": "c1f7aeeec837c8d711279cd6d62e3fc16909f514a7a172907ce1a02f612bcc10",
+		"node_modules/prism-media/LICENSE": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363",
+		"node_modules/prism-media/output.opus": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+		"node_modules/long/README.md": "b054480abeb49201fb06cd06adc59fcf8e6b5f40af04016e6bc7e2727cea7883",
+		"node_modules/safe-buffer/LICENSE": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+		"node_modules/prism-media/package.json": "bcd8deebb4677b7e8432a3a6ed4902308d0e5bb1b6138ac126318c614247c2ee",
+		"node_modules/prism-media/README.md": "26a086247b2cf211778af8255d6fcff24484796acbcbce9fe7d6619ce080b091",
+		"node_modules/safe-buffer/index.js": "d58af21cb0518864d0c505742d1af71e5b5e1f142f4c0f27353aa0f431a616d4",
+		"node_modules/safe-buffer/package.json": "371f017c1b0c395d37f0b9e5692ecb11ffe067a025521a83adff292994678693",
+		"node_modules/safe-buffer/README.md": "d301a850808775718ddb510d4bf2a922d9b0afa72894e67137daa20fbeafac05",
+		"node_modules/safe-buffer/test.js": "cd2be2c3b60eae7a2501ae5b75de366aa81f7746851da1a9b1891f7a8e076036",
+		"node_modules/snekfetch/browser.js": "cae184ab61d7525f04ce2e13bf16d35f288fc9d40440ef23aa98b15f4b34f86b",
+		"node_modules/snekfetch/CODE_OF_CONDUCT.md": "30689ab84a46948438588a34466e92b8a21275106ca0ade1e29933d61b68d3bb",
+		"node_modules/snekfetch/esm.mjs": "1e012df6502e056ad2a7d15a65470700a63594f6193601b4bc0d8658ba06c0b7",
+		"node_modules/snekfetch/LICENSE": "b4ac5f49c4d1dd2ef5dea8c9137cd42fa25ed34a3b01de67adf77825b582a961",
+		"node_modules/snekfetch/CONTRIBUTING.md": "08e22a3880ab61cc0e868b9a1702bdb57469a8a8465f40264c4803812962cf81",
+		"node_modules/snekfetch/docs.js": "e15445ed409fff5be3ec91a1a54deac561fe4f166069034f46f9552c0eef32de",
+		"node_modules/snekfetch/index.js": "96ea3c83f165b092696a98cd5b8681a61bf37fb13f0994d6f606298dd202a87a",
+		"node_modules/snekfetch/package.json": "bac49cef34178ad689ce51265b83dbbbef9141d8926ce8b50bf10551a429fe27",
+		"node_modules/snekfetch/sync.js": "bf1f7118f0e1063b5b8155cadd54baf09f2f96b9d05c0aa80d69c19df9804728",
+		"node_modules/snekfetch/README.md": "174cce5deb70463b6f0a4217068ae08e7e5c07d633610ea0ac38aeb72f47f219",
+		"node_modules/tweetnacl/LICENSE": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd",
+		"node_modules/snekfetch/webpack.config.js": "8934a4469a3225b8d2c8939edd55b43b1cb3345680ad03119efba6709cc98454",
+		"node_modules/tweetnacl/CHANGELOG.md": "01f93f791111dec58ee7b06e0a6ec48dd72de0b0af2271863474a130598d45c8",
+		"node_modules/tweetnacl/AUTHORS.md": "64062ae412dbb0bcbec2ff3066d379d9d5656ea18bd3035d642436b1321fe117",
+		"node_modules/tweetnacl/nacl.d.ts": "6f39ba3ed6e486a04d7f8de402f39c3e17ec2f61e5d3bad3939675f29e7c4a39",
+		"node_modules/tweetnacl/nacl-fast.min.js": "3c5364d0bd5264eed59753977728dcaa8efa53113712727aebecba76bdaaabbd",
+		"node_modules/tweetnacl/nacl.js": "cdc5941e574a4aa9200794cbabb64ccf9a96f213cc4403c06b7704f4c2ea8372",
+		"node_modules/tweetnacl/nacl-fast.js": "99875a82ff922a9879355ed3f407fcd334b269a706bf864348bf72ac9933f24a",
+		"node_modules/tweetnacl/nacl.min.js": "2d475f33ab99ae907450d077d931aedc79d0da45afe819de184ee229432b3c46",
+		"node_modules/tweetnacl/PULL_REQUEST_TEMPLATE.md": "65fe41cbd990b3dd0f7062a6052b8876e221b29e1ed12eac186bf87436e244cb",
+		"node_modules/tweetnacl/README.md": "8d51bbc20d2b5beb16aa7987a85a4baa82b5166abb8c4e53789f3896f2a89d61",
+		"node_modules/ws/index.js": "44e5ede5364b966c1875c19f080c7cfb211d5aee0bc2827476353554533780e5",
+		"node_modules/ws/LICENSE": "3de284c8e6fa7e8437eff6f53695471e0332129a5b42a79361e17b7637de94b3",
+		"node_modules/tweetnacl/package.json": "1b2433f8f09effd48fef3a0d10ea3d47d6a4e3947aa01190bbbcbae79bb2387f",
+		"node_modules/underscore/LICENSE": "57c78146cd350e9c88c82d4fa0c8a5369e7a8c4ae9fa47e80fe13e13aa9ff00e",
+		"node_modules/ws/README.md": "6b1992a330b98bba96e529c5a92da51e1f8b06d2504f1e5392775a60f14d3240",
+		"node_modules/underscore/README.md": "affd8fcfc373ca62525cdb92bcb28c61f9332bb40235d4545f9e373eac1275d0",
+		"node_modules/ws/package.json": "006f259ba44a192555e9e41d38ac707ac84e1c51560a9c7811086ecace5af002",
+		"node_modules/underscore/package.json": "7bf9965fe8175d4c4794c98fa5656b74d20ee77b41e5cae13ee1be70f62e8c71",
+		"node_modules/underscore/underscore-min.map": "3aa26ab5a11396e7648da3559a419702e39f5ae1c3a9beec252a92f815d6e472",
+		"node_modules/underscore/underscore-min.js": "a1b6400a21ddee090e93d8882ffa629963132785bfa41b0abbea199d278121e9",
+		"node_modules/underscore/underscore.js": "4b328e42c558197d5b99d7727cfcc60bac9763fad660651230e8baf93f6067ed",
+		"node_modules/async-limiter/coverage/lcov.info": "36514ef2734c75a575b9d7df1973ceee4c54127b550714329e6fe75053b116ef",
+		"node_modules/async-limiter/coverage/coverage.json": "78698d7eb6c854f43c253973e78f8dbd6ffedd90255b0bfdc68fe4e95464b7a8",
+		"node_modules/discord.js/src/index.js": "baa3caa30c7c8ed3d5c69f8d2810089115089bb39173100638b06841a4b500b8",
+		"node_modules/discord.js/typings/index.d.ts": "03374bf02dddf5e159044f35b9a9e173e7483ded808cd06b4a1e2929b37fe64c",
+		"node_modules/discord.js/typings/LICENSE": "51d2adad4518dab1ff42c645295c738f343a37e10f45510faefddbd12250f35d",
+		"node_modules/discord.js/typings/discord.js-test.ts": "a7136726bc1ec68dd6c869be05dde4befe3632fe33698b90ada21e53e2529a5c",
+		"node_modules/discord.js/typings/package.json": "c5c4c5cc939a6422cc52e7659d9dd9f59e67798dfa0f9bb86bba4eb9332fd5c9",
+		"node_modules/discord.js/typings/README.md": "c0ddf95b5a43327043b1cee1a61b82c35a5bc48b6b6b37ff9a84dcfb06c990de",
+		"node_modules/discord.js/typings/tsconfig.json": "c5806974fea776e01f50a18c937f8777b27e49a3e65154748e711c94ba31ac08",
+		"node_modules/discord.js/typings/tslint.json": "57a0dd2f4799f53c655a34635ea8bc87ea91d7a7e26fc05027960977a3aceacf",
+		"node_modules/long/dist/long.js": "0a9f7233bd72070945e022d005f0ca1e8c6f23806866040ae5a28f02a8aea444",
+		"node_modules/long/dist/long.js.map": "35a5a1a27880aba011b565426b16725ee449ae515854d337470b614e70401b8f",
+		"node_modules/long/src/long.js": "0d374703fbd10ade13a380dcaa090ad2a22db7837a1c0b56599d788fa1b84c4f",
+		"node_modules/prism-media/src/index.js": "1589bf0c36163b07f01ba48827caf720cdbfdbd98fa64e2c5697719ff63a6373",
+		"node_modules/prism-media/src/Prism.js": "25b770f7a9e32f145577bcbb5c00ac736ed96c1ab300f8e8e801ebf842bf7d17",
+		"node_modules/prism-media/test/test.js": "11289db21f21ede5d36550d1b7f5b12102b6d54dffbd0b701f8c0030e47883cf",
+		"node_modules/prism-media/test/main.js": "c8bd0955ee2361e87c2341f63d0275ec7f70fb74a9bbff06ae0ba96e3b34cc3f",
+		"node_modules/snekfetch/scripts/travis-deploy.sh": "c1d6471f4129e2140dc8aef0056cbf7ba36c9a9874297f6aa8f1d00c50fb3aa4",
+		"node_modules/snekfetch/scripts/travis-test.sh": "858fa4019fa42df7958f3eb08d2c247240522693fb192ad44a1d1203dfb31dec",
+		"node_modules/snekfetch/src/browser.js": "929aad5fd55e540fca0de1a0603cd36c610bd79066bcf21a100042586e61f091",
+		"node_modules/snekfetch/src/index.js": "2fb9da2a64587b1da6ea5661896e58fbfc7e64124dfd52b69901161f47f64901",
+		"node_modules/snekfetch/src/qs_mock.js": "7933e11a0518bba71214b2b17c64efd72124edfa61de04a12e89c8fcb6935a48",
+		"node_modules/snekfetch/test/interop.js": "74f501f8d2e8992268a901201052474096c0bdc5a48fb9d529d4e02eda24a21f",
+		"node_modules/snekfetch/test/server.js": "d9536afe894cc02d0f0693dc8f9f6436184ecaece3e72b7b5eebe9e2482b4de3",
+		"node_modules/snekfetch/test/main.js": "1a694fc72bcfa200d7c4f7172cabc67cb576947dbfc5dc919cc805240783bd82",
+		"node_modules/ws/lib/constants.js": "9d42813a1c3f5ca79f80bddf29b6267bba5edc6973ab95db78eb8ea5232d5871",
+		"node_modules/ws/lib/event-target.js": "3875814e265db71d489f4d24006c89de9ce09a1aff9470b2e46cb626358c60d1",
+		"node_modules/ws/lib/buffer-util.js": "a632264aaaced7af9f70f2bfe315330a66ed61dbc99fbf5a0e3c2c6ad2d76c32",
+		"node_modules/ws/lib/extension.js": "4f46e10ed8895fae180f6ee452386a1d4c39fd2139ddd421a85f098e65704024",
+		"node_modules/ws/lib/permessage-deflate.js": "4e41b12802ea40b8a3edbe15cc23f43fa6cef17cb2fe8fc9b1298da9713a0f16",
+		"node_modules/ws/lib/receiver.js": "6c4185f26b590d1bb3d23a0f8c5acbe951a85aac0b772484adbfdb40a32805bf",
+		"node_modules/ws/lib/sender.js": "a398ddda4272f62af749dd851467a41a7d9f38fe11ae499f39612955386e0a9f",
+		"node_modules/ws/lib/validation.js": "30b73f46fd608c8a837bb2f0a708d173f0f9fc6bd37c8dc0fa6bd0c39b4ae61c",
+		"node_modules/ws/lib/websocket-server.js": "438aed7916fa13655be9e929a0f7b37fe3e532188bf8e07ce24d359c2f95629e",
+		"node_modules/ws/lib/websocket.js": "4a629744585a5da6dbf33973ea123ad1bbb9196aead16717a49f17ceb7c21bc9",
+		"node_modules/async-limiter/coverage/lcov-report/base.css": "a8d0046d163e8ba620de95c3f3d30844d72b3037d6e28213e34f4e711fda710e",
+		"node_modules/async-limiter/coverage/lcov-report/prettify.css": "ea3fe433f9450698ca8a230271688e7aeec12f99c8a7ef6c94379abb38f27823",
+		"node_modules/async-limiter/coverage/lcov-report/index.html": "0e517f457fe888e5c84ed73f8c51b884616d796d43b01f8ddc58afbdc9c44dd0",
+		"node_modules/async-limiter/coverage/lcov-report/prettify.js": "67126b6cd4d1b2305f8c8fa5974971ebe90ab2b0f6e209ba2f1c6e4af05f0207",
+		"node_modules/async-limiter/coverage/lcov-report/sorter.js": "f36b3bbab81ff43151b2e5f45dea4770e6e3f2436ed41060792402015c26944d",
+		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531",
+		"node_modules/discord.js/src/client/Client.js": "c20925532195b286409774e410b7730296f3d6b4d21c5751fb133938b511e22c",
+		"node_modules/discord.js/src/client/ClientDataManager.js": "50f52ec1c57108367948a09eb9d1d67a83d8997291c9f2a5378850b9d0ee3f31",
+		"node_modules/discord.js/src/client/ClientDataResolver.js": "bfc5a319ecbc084e0a2b1a0ea8c50b65bb6bf10382db71695a0e072b54981ba3",
+		"node_modules/discord.js/src/client/ClientManager.js": "f6b162f6ea583dde07d971be2a6f81869dea4ea4cddd4fa5d106a7855fbae3fa",
+		"node_modules/discord.js/src/sharding/Shard.js": "ef317fdb498635dabdd288f90052902d2fd8fa06014152be5289aa1c86dc6a97",
+		"node_modules/discord.js/src/client/WebhookClient.js": "960702c0f8dc99fc3166744bc5b87ccce4aa608b18bcf3f6ac2e71d0b99c9c69",
+		"node_modules/discord.js/src/sharding/ShardingManager.js": "6f73036cdee9e357d482152ee7b550872d2c4abc099c58fe7c8e9ec3e0752d58",
+		"node_modules/discord.js/src/sharding/ShardClientUtil.js": "0f4d3374ebf1bbe6dbd7415c5a4753a0d9734b2f68acf598a5a625c4e64b203d",
+		"node_modules/discord.js/src/util/Constants.js": "e543bb447482ec88fabe3001d1fed0380558c3032173e2ec36b89d2bb2550300",
+		"node_modules/discord.js/src/util/Collection.js": "cfacca0d987a46229f7bf1bd7032e7bf905eaf137643fdc89e3f7e5e645cd645",
+		"node_modules/discord.js/src/util/Permissions.js": "02d0321675ca016b71a17be4e454d8c052594cad2c94a3b80242777e8e58c3ea",
+		"node_modules/discord.js/src/util/Snowflake.js": "92c86b1f2be22bd5d9cb072a96d6717c3130efbae57857c0597dbbbbad5a3d06",
+		"node_modules/discord.js/src/structures/Attachment.js": "db163b10219fb0c77ef2243dc9a6c654d48675afc03ab2b1ebe4fec2a27df215",
+		"node_modules/discord.js/src/util/Util.js": "76629e8f3e4b8134338be6dd808b94daf954cfd7cb36fed4b6bc9756701501ac",
+		"node_modules/discord.js/src/structures/CategoryChannel.js": "be47143cc6e2772ee4fa53a3ec719f452d8b692486f0a0a221e8cd2e79c1b58f",
+		"node_modules/discord.js/src/structures/Channel.js": "b92fc5f6fc629ae0cc084381b5ab8fdfecb079ed9c50ec9ebc1454283756fe93",
+		"node_modules/discord.js/src/structures/ClientUser.js": "39f2cfcddf55110623fdf9e153ada015b488b94f52322485c6f5fce64ec8d023",
+		"node_modules/discord.js/src/structures/ClientUserChannelOverride.js": "ac03789ddd4f4b7064ae591337389017bd11943450aed9d7c1f8fd39767503fb",
+		"node_modules/discord.js/src/structures/ClientUserGuildSettings.js": "786925313299f794c768287ba4bd2587ac0d32200518ca3bec3d6d8638da5d41",
+		"node_modules/discord.js/src/structures/ClientUserSettings.js": "da0bc3ae8a00d27b9b2e1950c01e96e3782173e640607405d6f5d88f28781d32",
+		"node_modules/discord.js/src/structures/DMChannel.js": "01565f8a16e5f03060bd75465f6fbddbb44187a8301d7e0ff5e42db3740688f6",
+		"node_modules/discord.js/src/structures/GroupDMChannel.js": "43e1ea5e3ea379970e2ef54d491d3b25d84db350cd9aabeded52f95dcfb9b386",
+		"node_modules/discord.js/src/structures/Emoji.js": "59c62cc40f81bf644f75c25d7420718a31c03fcd2be3603b92d458f6a2a13dee",
+		"node_modules/discord.js/src/structures/GuildAuditLogs.js": "a8fc442811f34cf7ceb1bedc3bea7b89ed2263e9106cdfcefdd495c7475538b9",
+		"node_modules/discord.js/src/structures/Guild.js": "6ee4054907e46c94cd5127b12bc02c91a63ebdc295a8f4a4ff261f1f514739db",
+		"node_modules/discord.js/src/structures/GuildChannel.js": "bdb7dbc25561efc282c88c0e7bddbe970bf6bff5be7c8eec6e53d54bc3e0e747",
+		"node_modules/discord.js/src/structures/Message.js": "c0a919af7b99b7f681912c537642c702b10da2ad5dd66bde7808ed612c38ebf1",
+		"node_modules/discord.js/src/structures/GuildMember.js": "9169e2c02ca5c84aceb6ae92e71d17cf6d8d1c1ab5092bd6456d44ca08be4f59",
+		"node_modules/discord.js/src/structures/MessageAttachment.js": "624ed360f60355b32e43ffa9da3e4dc8e641a7c846c3d64e1d6e6dc9c1b9817d",
+		"node_modules/discord.js/src/structures/Invite.js": "721422696cde13b9edf39f7ef087a925dee0cf4c9a89f7c41bba569e999fbbfd",
+		"node_modules/discord.js/src/structures/MessageEmbed.js": "1e6566e92a2d897c85289bc405da17cf0ec4957e4524a04880540a91eb008b24",
+		"node_modules/discord.js/src/structures/MessageMentions.js": "a709cdd8fa0c8f279f953b9c3e632e25bae4b4abcdb11a24cf89fd460322aada",
+		"node_modules/discord.js/src/structures/MessageCollector.js": "acb2e620e550e6a716e44e6dedeae29d9087bb437ef97e2fa570ea095212d829",
+		"node_modules/discord.js/src/structures/MessageReaction.js": "7fdc9e8e685b16acfbfbbe8c8a46bf0876ccfb1a015d0d2e8de896c68f1fa2e2",
+		"node_modules/discord.js/src/structures/OAuth2Application.js": "a9e9b653cd121f2091e4370fdee7f1788a682d0622303a11c2b427a25bceaffc",
+		"node_modules/discord.js/src/structures/PartialGuild.js": "5ccd80d475b03c405aa50c3dd74d91fb546af6b647587327c9560db66b578f01",
+		"node_modules/discord.js/src/structures/PartialGuildChannel.js": "8be2e7543d6fde105e5815e52ad607671ba7682fb822ec1559ed2932abbb4cb9",
+		"node_modules/discord.js/src/structures/PermissionOverwrites.js": "4a27d88ba9aaf89264a3468da14775bf9157fba901b5189b85ab4be68f752888",
+		"node_modules/discord.js/src/structures/ReactionCollector.js": "c72c499bd6408a257dd31159ad2bbf287652bbfca36b1ea15df56f228160f855",
+		"node_modules/discord.js/src/structures/Presence.js": "30ebe1b888ca9085866f8ba75e02eed1d718dbaa8234f85ba9fb2d8f4244d907",
+		"node_modules/discord.js/src/structures/ReactionEmoji.js": "a8ba5074d4b3ef16d2c612775549ebd843da39f92ad007c8c2fca40a25c8fc9a",
+		"node_modules/discord.js/src/structures/RichEmbed.js": "489b9f96d342cac1aa8424d51da885a6e1a62b7fed28b39107323287e2aa3364",
+		"node_modules/discord.js/src/structures/TextChannel.js": "2c3219f4ea4391aae76605c4330394feda44ee29f23c4f5871f9962e94b73296",
+		"node_modules/discord.js/src/structures/User.js": "97f68a891d271ae42b17647c69d5d3645176df9ce3e148bb24fd9d7cbbeb7a03",
+		"node_modules/discord.js/src/structures/Role.js": "7f86420bbf46e259f26239dd70a00544ff349f6659b909bccf716b3f089ae9e3",
+		"node_modules/discord.js/src/structures/UserConnection.js": "bd48a7e29190464df38d5656b7e5b80b710739564c24c72ac62af518aef7f5f7",
+		"node_modules/discord.js/src/structures/UserProfile.js": "e293164eca3d2a3ff6516ecc4ef948aeb6bd8193a6e406d585bebdf3d87157c9",
+		"node_modules/discord.js/src/structures/VoiceChannel.js": "bc8d744d1ff534894568b94b115c8e8a548db0eb742d5e4f6d9da294bc6185fd",
+		"node_modules/discord.js/src/structures/VoiceRegion.js": "9ce4663e0c2c3cf8009cb777a952067fdd9248be9b390a0135df720f9230d462",
+		"node_modules/discord.js/src/structures/Webhook.js": "c1febe5a2e34d3474bee1d1b7fc85f3a43bf1dec9695b2d6ec33abd9d409025f",
+		"node_modules/prism-media/src/util/Constants.js": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+		"node_modules/prism-media/src/transcoders/MediaTranscoder.js": "46584f90bfa34d0f1a52bcfa689ab511a81f31ad91846c2070fec5aff7cc59a0",
+		"node_modules/prism-media/src/opus/OggOpus.js": "4b03e790aafb48ec7f8b0b4960df60d0e286032fea617bf5f86bc3330d1641ba",
+		"node_modules/snekfetch/src/node/index.js": "d649a7fcc1d3f642cf5dcb53aedf9075529782397844310fb8b122ed6454d392",
+		"node_modules/snekfetch/src/node/mimeOfBuffer.js": "89c8b4d0029018f26d20e9c534fd63ae69c33134f30e27f04fd2f3cd49f9a716",
+		"node_modules/snekfetch/src/node/mime.js": "d3cc6e09a85d03e7aa86a536f24a19068ee7c458318937ecf20117237cdd8c99",
+		"node_modules/snekfetch/src/node/FormData.js": "3595cc0477792eb164ae8b6f3b76c75e130cc4e63341642c0b4cba0ce932ae17",
+		"node_modules/snekfetch/src/node/mimes.json": "32aba355c8a6cde2b0664fce51cc83a5cfb744109fa7866205d0e47c7ca289f3",
+		"node_modules/snekfetch/test/node/file.test.js": "f60f34d1cc894906d511170ed6b8e4adbbc21fc1ba0c1878a40dad7ac3c296e6",
+		"node_modules/snekfetch/test/browser/http1.test.js": "ad6180d585bec757a9a988700d5338a3c12263ce837bec3b0cf84d295e088714",
+		"node_modules/snekfetch/test/browser/http2.test.js": "b9788df6e7884195f5b06aa1cb6fcaa88c7b8dee3e1e6cccbc7f3b9edeee92d7",
+		"node_modules/snekfetch/test/browser/main.js": "6dff4eb0e410d20ed5e1e93b0d906b126d9577eef6ce9e2dedda18d709ed2c8b",
+		"node_modules/snekfetch/test/node/http2.test.js.disabled": "09a6216f3dd3ba6390ffd4f18af08a1272c0228acebf5c92366fd3f52e2f8bc1",
+		"node_modules/snekfetch/test/node/http1.test.js": "8805e8f62b5914ecf2dd38b1a34015c478bfe4948b5fa8fdb60b5088fb0e0ebe",
+		"node_modules/snekfetch/test/node/sync.test.js": "268f58ecf2d8de1d2289d10c94af5654402d0f3880e6b37ca1b6294dff62a5d1",
+		"node_modules/snekfetch/test/node/main.js": "18427079c68df824252362a80ba31b0b574081a52ad3769768ebc4442f88ec2f",
+		"node_modules/snekfetch/test/node/util.test.js": "4732329a53400e0d9f0900513b566a92ab85a9f38abae61aa572eb2d8f7ac2a6",
+		"node_modules/async-limiter/coverage/lcov-report/async-throttle/index.html": "e20de2655b2c53a2c922d3c0e482920fbb5b63d7ce09b104aa282d010e475910",
+		"node_modules/async-limiter/coverage/lcov-report/async-throttle/index.js.html": "6bc7ffe9c6b9760c6ba1a742360b2d802db03cc45a22452ea209cfd35c8dcc43",
+		"node_modules/discord.js/src/client/actions/Action.js": "2d2f6bdc82df443ea122b3c53cd3d8859a834899a263090e5747588de1e22922",
+		"node_modules/discord.js/src/client/actions/ActionsManager.js": "e254f38d9d4bf1bb0d735cf1983c84777c0143b413a589e7d5117cd525f5747d",
+		"node_modules/discord.js/src/client/actions/ChannelDelete.js": "941e0c8b46ad867ab9d6a2f10768b7a6aa1d494bbdce7b6af4ffd836a7bd00a3",
+		"node_modules/discord.js/src/client/actions/ChannelCreate.js": "db5291edf18e909ee4b28e7d2623be14686dde4390805810b614569ea0edcc7e",
+		"node_modules/discord.js/src/client/actions/GuildBanRemove.js": "e7b44694512a5a1331e640406804d92823fdcbb7382f2baa5af7db1541a8f1a5",
+		"node_modules/discord.js/src/client/actions/ChannelUpdate.js": "9dcdb1105c2f65e5fb208febeea97b43d590a44fcecd83b48cfaf61ef57c802e",
+		"node_modules/discord.js/src/client/actions/GuildChannelsPositionUpdate.js": "466b35c97507be3add7c81195e0b43db53dfcc82557ebc6645d22721373c78ab",
+		"node_modules/discord.js/src/client/actions/GuildDelete.js": "0c11aaeeb86e4fed077bbdccb84ce68054e41f97c5c604749f29da37445439f4",
+		"node_modules/discord.js/src/client/actions/GuildEmojiCreate.js": "88d99d7e3c01a3113a6f99d5b03db382f09cc84ce7f733fbad1c48f3a0aa0298",
+		"node_modules/discord.js/src/client/actions/GuildEmojiDelete.js": "a234915c493cbfab1987ce9da9613b01ee2054954a97f5e1e8740922488cbfce",
+		"node_modules/discord.js/src/client/actions/GuildEmojisUpdate.js": "2c4bce76d4a52f0c04392517ae5bd7dcaa1974b0c516e2b1ce579118c81a3196",
+		"node_modules/discord.js/src/client/actions/GuildEmojiUpdate.js": "71ab80567e9bfe61b2bb316e96c32dc6988c29475e9ae3112d353ef5a079de64",
+		"node_modules/discord.js/src/client/actions/GuildMemberGet.js": "ec380a16a450ea544dce7bca154a65fcb41651907d4ac3e60d109dd8ae8f0015",
+		"node_modules/discord.js/src/client/actions/GuildMemberRemove.js": "00f6ec5b412122f8b1182c63855ac0b5b86e8235fab3e7340fa652a23032ffac",
+		"node_modules/discord.js/src/client/actions/GuildRoleCreate.js": "252febc72e6d3551b85e1e782b733862a05aa865f8e266e0049426b39768f354",
+		"node_modules/discord.js/src/client/actions/GuildRoleDelete.js": "c4058a39575c17a5efcf1c8cce9297f9beca4380bb1a168c10009207a8f9e18c",
+		"node_modules/discord.js/src/client/actions/GuildRoleUpdate.js": "f910f67706c252fd3eb3efc43f3bc83aaedd3066540bfa8d6baabf4a01a6d05d",
+		"node_modules/discord.js/src/client/actions/GuildRolesPositionUpdate.js": "0ab9b804d288a35f960246f749e372186cc6e6f5b5a7463837a79f5adbb9c0b0",
+		"node_modules/discord.js/src/client/actions/GuildSync.js": "b385451705bd3d5c0fd754ab398ba97cbd51777a0d3337252b11c7c5b0d263cb",
+		"node_modules/discord.js/src/client/actions/MessageCreate.js": "b8c0cafbae81d29c6c23b57663254e99bc067b636f87f9e1395dc7afcad1c724",
+		"node_modules/discord.js/src/client/actions/GuildUpdate.js": "340661d69670e4ef00eb4e5535be56787f6cead1b6f589ccc08900b50904a507",
+		"node_modules/discord.js/src/client/actions/MessageDelete.js": "eb6c995d376188db2fa2a3c0c4d2c55b477b9b430afc566bb9754e36ecc25df9",
+		"node_modules/discord.js/src/client/actions/MessageDeleteBulk.js": "9f043dbc0ed91a8a27ed316aa6de325c78eec382b4d810abe798cd7550599eec",
+		"node_modules/discord.js/src/client/actions/MessageReactionRemove.js": "a26f093bbfceb5cf65d3443cd895d8a813a8d306f2c45cfdf437df6e760b32a4",
+		"node_modules/discord.js/src/client/actions/MessageReactionAdd.js": "edd38339c8ebcb52557a11b15443316cbb1820f77bfe9a920fd22e074f9952bd",
+		"node_modules/discord.js/src/client/actions/MessageReactionRemoveAll.js": "4be5d6b002d23cede6f85fbc3916b7fedd3ded2fecfdb2a7d337ce071e723c52",
+		"node_modules/discord.js/src/client/actions/MessageUpdate.js": "1860c914236e2af6c5d3708ea6dff6eeda59e49fa50fa0f27c399baec7df2976",
+		"node_modules/discord.js/src/client/actions/UserNoteUpdate.js": "a90634893173f8396a45b28aac33b28feb12fb223c239fdc6a66c6bc25bff30c",
+		"node_modules/discord.js/src/client/actions/UserGet.js": "31cf5411d491651e8d68a534a0159bb37088796e3e5ae311c485ee4f8343baa6",
+		"node_modules/discord.js/src/client/actions/UserUpdate.js": "0b375c73692430309590aa4464a3605f88a2262d99c7945826adda31679a4eb9",
+		"node_modules/discord.js/src/client/rest/APIRequest.js": "22805b96297b8c27a441b449fa02d8b826c6f49bcf78251aeb8ada74a04cd7e4",
+		"node_modules/discord.js/src/client/rest/DiscordAPIError.js": "09ff2e04947a53dc88108d4320df5cd348c6290a09ec43db470ea12a9569c9a5",
+		"node_modules/discord.js/src/client/rest/RESTMethods.js": "c34a5eb3c9f2055923a46ad62212a2b4275cd0fac799d9f4f567249846460900",
+		"node_modules/discord.js/src/client/rest/RESTManager.js": "3c687597924c9a937c40678c3c173e9f801c06495ffc90c54fad7a4283371f22",
+		"node_modules/discord.js/src/client/voice/ClientVoiceManager.js": "2bd5edf7e4ad7477e60426f74d7ae376005cdbb465e7c17243f25647d8fbe554",
+		"node_modules/discord.js/src/client/rest/UserAgentManager.js": "57c2bbd54f99611ccc0fa422d4b773555c2ea27354dd4aed08bd4a680aeed7fa",
+		"node_modules/discord.js/src/client/voice/VoiceBroadcast.js": "330640144acc82e88a7307fed8095fcc7aab2a8809500434d1c91ba41e43e801",
+		"node_modules/discord.js/src/client/voice/VoiceWebSocket.js": "7d1bcd78df2ccf343cae195474acf9aa304ebe8cdd707586b974623a7cb1844c",
+		"node_modules/discord.js/src/client/voice/VoiceUDPClient.js": "13ae536abb57df85c3707d7245095955449e7c5b1cfa29f8b08712aa86743c0d",
+		"node_modules/discord.js/src/client/voice/VoiceConnection.js": "976d8cd777a851a33dccdeb35c7fe6ce170e157f49b9f6ff9942555d0277f6b6",
+		"node_modules/discord.js/src/client/websocket/WebSocketConnection.js": "14b6fb255426db5b9d0641e647ec7a829fd2c977258d405cd47ae6e2497df83c",
+		"node_modules/discord.js/src/client/websocket/WebSocketManager.js": "4ced20e641663f5ee1f323426f96e0aaefe1b8d78ef4e9099b71ef879248334d",
+		"node_modules/discord.js/src/structures/interfaces/Collector.js": "7fb34087ba1a139bdcf923dfbb7e2650d8183e323a2b05ace512af02f0459cb6",
+		"node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js": "f937a5703a0ca5d874961c020475942e70f308b961f0fdb4d701568d4160e8f0",
+		"node_modules/prism-media/src/transcoders/ffmpeg/Ffmpeg.js": "e7cf1d92a1b071911293df2df4f96eaf99225815b4cd1512389702218b71a129",
+		"node_modules/prism-media/src/transcoders/ffmpeg/FfmpegProcess.js": "56fd931e386e752df5ebf5f10b2a4bc688cef906e615d1a91a38bb974dbf0e50",
+		"node_modules/snekfetch/src/node/transports/file.js": "b7fa00f7b7e489afb3976f7f524f4129a6107ba17f30b778fff26d7114b2708b",
+		"node_modules/snekfetch/src/node/transports/ResponseStream.js": "10da93bc4e372734eecda599379b23d67e584a464f0c22fdbcbbc58a1b62e60e",
+		"node_modules/snekfetch/src/node/transports/http2.js": "14795fb4cbc641552a582dc5ccd6f781bd69e0ea7a705bd5bfd590ebab9a9b02",
+		"node_modules/discord.js/src/client/rest/RequestHandlers/Burst.js": "6238ff2b9adb6778984273f44c300782bd9faea46e359e6e7ec47f7ec73f23b7",
+		"node_modules/discord.js/src/client/rest/RequestHandlers/RequestHandler.js": "cc6e3b3dbbec3602eb7b3a24b1ff8ec8ebbe5313cb5de30ecd083fec1af87ae7",
+		"node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js": "1a0fe7a5aa567b3ea83e98944740dcc20c12602e915573a0ba5e6e757427a52d",
+		"node_modules/discord.js/src/client/voice/opus/BaseOpusEngine.js": "8ac00bedc6e1af05af78c8d94547af72292ce695cf25baa5b2d16cf829aa832d",
+		"node_modules/discord.js/src/client/voice/dispatcher/StreamDispatcher.js": "61f8d48727ba208efd1ca1a5cea9796e12a6b1dab97e4e3e122954a4b16de3ae",
+		"node_modules/discord.js/src/client/voice/opus/NodeOpusEngine.js": "4e365cac37cce0342e6ddc7e52878499010b9f0462825d3d2f92c6932338ab2e",
+		"node_modules/discord.js/src/client/voice/player/AudioPlayer.js": "1a7af611e131cab48852ea506de593dc9586559521f812248a76b58291cb6a02",
+		"node_modules/discord.js/src/client/voice/opus/OpusEngineList.js": "717087afd02f9f5095f1c56e9a5863d930864fbf31cb55e12c0345fafe51f08a",
+		"node_modules/discord.js/src/client/voice/opus/OpusScriptEngine.js": "1c0bdd7f0d66946f3e81beaf1f58dcdac2326912cad3fa146d39e2f92bf9c3b0",
+		"node_modules/discord.js/src/client/voice/receiver/VoiceReadable.js": "f61ba725802393f41ac6dbc1ac01391949607317bccee2ff24f24b6bb0047379",
+		"node_modules/discord.js/src/client/voice/receiver/VoiceReceiver.js": "444b7babacb193969df63b02a5f5bfcd2f49d08831a9574b29d6cc1a8201d763",
+		"node_modules/discord.js/src/client/voice/util/VolumeInterface.js": "f8d2e770d2e0991e18c046045b4c1dfdcc6ebd45af908da02f77f4704df0de7e",
+		"node_modules/discord.js/src/client/voice/util/SecretKey.js": "f0807c9b05e52db42e1c3ed30a262b86e7e3dbb50ba6a836bf055388902bb99a",
+		"node_modules/discord.js/src/client/voice/util/Secretbox.js": "de5cf363a733f82b55693dfb30eedd24c55fcd4ab3dd21f32419ef60126b2e3f",
+		"node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js": "28f55b3fe67ad93b3b39465e90b34885822a3ba11bddc7b992640d8ee59557b8",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/ChannelDelete.js": "b69315b60ee5e9a20e1f6da6172d96b5b5221d95f10821b8a4ad2d127f5666c4",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/AbstractHandler.js": "cb8fe25216d4cfe0904bce3d321058a231b0d3152bf7bd8c02ad8a5ca28bd064",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/ChannelCreate.js": "1b5fee5ebdf8bc1cc7fa5d9dd5d7efba100e602c0038cb90424692789eaf9d2b",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/ChannelPinsUpdate.js": "6335dcd09c2aecdceb13c5872e6b65ca0311971bedf2937678fb993f3ea624fc",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/ChannelUpdate.js": "d644dc3b0ddc442a15f8d0e711dff015585cd9f56d925aeb3c199b017ee78f45",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildBanRemove.js": "061479d059320c8241abed514b3927f653a539bcf4c46a58a5748bb5b40ec128",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildBanAdd.js": "8e6bb96f89b0bc976c5a91a4018517e0ecd06ef341bc3b94405fe68ba7e20e8b",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildCreate.js": "35599d9ba8e81c9390103a258240edb74aa56913226f73ddf3ffa48ae4828067",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildEmojisUpdate.js": "a6280095d3909e541f4ee089bb849f8fbd2941e456712f74f7c3d321de9dc598",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildDelete.js": "c17c12f5e35eed8ef782e43e7b7144e86839e5f996ff31821567a8c5efe63f92",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberAdd.js": "41624dff1a825a054e7f39782e1bf65f5853ca03136fc6cb1438f53bfee3caf3",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberRemove.js": "1a4bc9b910d7ac86f40206b04a326a79c3a3ac02d42670f3de51b93ed43fbaaa",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildMemberUpdate.js": "f03244e4a46dad6189862c218dbf94fa3f7bc1579a0dfd995380cb82120e6e39",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildMembersChunk.js": "6fcf50c5ec098f3f0a5a07da5634e0b7b8d0b84c83ab8f26d82ae5fc4f290398",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleCreate.js": "ffd051c464769f3848f2d3db200a1b6ca4e3e9f5074b3622d00da52c1b5fe714",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleDelete.js": "6e96ce1fa9830b6ddeec779c6328fa80fa4640af4d1fb009058413d07e1200e2",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildRoleUpdate.js": "4ea88ed95bbfc936b7d9e084640c02c08ca4820d06bb067c6e7394b196dab036",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildSync.js": "a85e075d1ac8032bda10e82cb6a99cef826948b9906288a791e87917efcc8461",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/GuildUpdate.js": "edfe578f8e1770062ae1b7316a8db60501bf7b95fe6f83c5eb32c4d7060348e2",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js": "82de463aceb3d1fbc9313ae7f0f088e63e99347cc43c94548e91d65ec662d264",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageDelete.js": "9384ae6ad03a31387c1e2651fc5a4e3ef748a9c27b5b64c25d09b72a0f6643a0",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageDeleteBulk.js": "d3d66a0606b4e648b6379a12362e480eac76b8317fd81c39096d615c880d69c4",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionAdd.js": "23ae22fb711fe84a7b7203503a50d97c232f5166c8ef61722d934dd338e5d58d",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionRemoveAll.js": "799144b188f379716cb2e352020aa09de89575e7835e263b2876b928f00c7299",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageReactionRemove.js": "4dc16fd973c1032711da8b73706b242926195bd100ae7871983d2b41dda3583f",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/MessageUpdate.js": "9a3a8256ca5cf0e03e5560a20c28e5ebd4d066e262953e51bcca9628e55d79fc",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/PresenceUpdate.js": "645e67ee098c0b8ff6e6a4d6038202c55f00eb0cfa83a5f58513d0f9ed025919",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/Ready.js": "24d7910a0a07f8e6193848cb66bde2ee7735904c9f38d0ffd5d0b16160cf9ec2",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/RelationshipAdd.js": "3066077f4355871381c75439c70c8ecde6d8d2bbb894ec2030e5ca29f40ce6f4",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/RelationshipRemove.js": "5e2349775849724d54a57a10831a3f8275a4f9a4e2c18d787264926bbc289902",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/Resumed.js": "45c7b26ac9894570250ae48b2684ed65a0fe72fbc69cb6fa7407dd1a307c529d",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/TypingStart.js": "93a83524644c0aa06051f2742f8bed747e3baaa795ccd3df5364eebd6c15aba1",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/UserGuildSettingsUpdate.js": "8e04c5b51bca5df346e85078b7ea22917bc5513e50be134004cb935908b5f5f1",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/UserNoteUpdate.js": "ce26c5174d2f26d66674ec6e40f6ffc728deb28d865dfad15111fb165814b647",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/UserSettingsUpdate.js": "d457549a5bd2b4cb648db3f6d916ff895c54db07d9e286f92d5969bf1d3f1cd1",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/UserUpdate.js": "53c1c37d282b63cef390ebb1a3600220d02c478995531aad03cb76a50c32f966",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceServerUpdate.js": "fe816e35fa7600e0f2e9e0d80802339fdb956a030d2499106f78a3704d1996e3",
+		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js": "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c"
+	},
+	"defs": {
+		"C_PONG": 1,
+		"C_CHAT": 1,
+		"C_REQUEST_GUILD_INFO": 1,
+		"S_PING": 1,
+		"S_SYSTEM_MESSAGE": 1,
+		"S_LOGIN": 10,
+		"S_CHAT": 2,
+		"S_WHISPER": 2,
+		"S_LOAD_TOPO": 3,
+		"S_UPDATE_GUILD_QUEST_STATUS": 1,
+		"S_GUILD_QUEST_LIST": 1,
+		"S_GUILD_INFO": 1,
+		"S_GUILD_MEMBER_LIST": 1
+	}
 }
