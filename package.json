@@ -8,8 +8,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy":
-      "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
+    "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
   },
   "repository": {
     "type": "git",
@@ -24,7 +23,7 @@
   "homepage": "https://github.com/Hauuguu/discord-chat-relay#readme",
   "dependencies": {
     "discord.js": "^11.3.2",
-    "underscore": "^1.8.3"
+    "lodash": "^4.17.10"
   },
   "devDependencies": {}
 }
