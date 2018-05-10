@@ -1020,7 +1020,7 @@
 		"node_modules/lodash/fp/zipObject.js": "fdc9387d58165a826b001dcb9b60c563eb7643886fbc6213ce25deae92379620",
 		"node_modules/lodash/fp/zipObjectDeep.js": "92fa710f6ef480fe3843648435072d305170b55d0be8f7c870316f070404ccf4",
 		"node_modules/lodash/fp/zipWith.js": "c350e83a9babcfee6d919c52ecdb3703af8f17acb9799a85d9b200bac4f93b67",
-		"lib/teraHandler.js": "bff2cdc4ff855110c26038472b5d0eba36d7979df42ac50db3d88201c3f0e430"
+		"lib/teraHandler.js": "1021af896acde4543db3134f3d47c814f320f5743b07618cfe13e227ba68f4d2"
 	},
 	"defs": {
 		"C_PONG": 1,
