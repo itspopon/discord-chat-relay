@@ -1020,7 +1020,10 @@
 		"node_modules/lodash/fp/zipObject.js": "fdc9387d58165a826b001dcb9b60c563eb7643886fbc6213ce25deae92379620",
 		"node_modules/lodash/fp/zipObjectDeep.js": "92fa710f6ef480fe3843648435072d305170b55d0be8f7c870316f070404ccf4",
 		"node_modules/lodash/fp/zipWith.js": "c350e83a9babcfee6d919c52ecdb3703af8f17acb9799a85d9b200bac4f93b67",
-		"lib/teraHandler.js": "1021af896acde4543db3134f3d47c814f320f5743b07618cfe13e227ba68f4d2"
+		"lib/teraHandler.js": "4a1dcdea32aa789a069ec09a3e5c374347cdb28c3096caddf767ea857b9e2669",
+		"logarchive/sGuildInfo.json": "3d21a8631afdb9b3f9b0e6096dd40fb2cb9897d03a2e20bf7452fc2a42595666",
+		"logarchive/sGuildQuestList.json": "4c756d574172a00f2229110e6d86ae6990b8d7b4661a94a0a7943eb26347df10",
+		"logarchive/sGuildMemberList.json": "6c03d0ac1b38aae89eb0ec665abe23e2019b886ce657b99787470276fd1a8d16"
 	},
 	"defs": {
 		"C_PONG": 1,
