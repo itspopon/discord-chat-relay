@@ -3,4 +3,3 @@
 *.log
 manifestGenerator.js
 config/config.json
-logarchive
