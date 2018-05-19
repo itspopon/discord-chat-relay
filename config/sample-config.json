@@ -6,7 +6,8 @@
   "channels": {
     "gchat": "GUID_CHAT_CHANNEL_ID_HERE",
     "gquests": "GUILD_QUEST_LOGGING_CHANNEL_HERE",
-    "guildannouncements": "GUILD_ACHIEVEMENT_LOGGING_HERE"
+    "guildannouncements": "GUILD_ACHIEVEMENT_LOGGING_HERE",
+    "guildfirewall": "GUILD_MEMBER_JOINING_AND_LEAVING_LOGGING_HERE"
   },
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
