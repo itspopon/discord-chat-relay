@@ -7,7 +7,7 @@
 		"config/sample-config.json": "a4b221dbab2dda794b75abfffebe0329fcb351a1756ed43a4da5d393d12b9557",
 		"config/sample-dbconfig.json": "5b5b0c20934254282912d44671b01ff54075506fc327329802211033bc6c92cb",
 		"lib/discordHandler.js": "ab389cac10494c23b9e33f83146b88c47e7f11a97c8c26fe5a5e57a52dfc783e",
-		"lib/models.js": "4a0b45edcac0b6eab830f33c516e9b018bfdf4240f2403bd179980fe95f54b90",
+		"lib/models.js": "4c6b66fb88e5115f07b1758187bc13e1c9e0a512f8be90d93d1aa50d23856d99",
 		"lib/teraHandler.js": "911ecdac087ccce43ba6d9ee1354784c9029b08b7f4281edbc5990a16fe8eaa7",
 		"lib/ipc/IpcClient.js": "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
 		"lib/ipc/IpcServer.js": "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
@@ -1551,7 +1551,8 @@
 		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceServerUpdate.js": "fe816e35fa7600e0f2e9e0d80802339fdb956a030d2499106f78a3704d1996e3",
 		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js": "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c",
 		"node_modules/mpath/bench.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531"
+		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531",
+		"lib/Models/Guild.js": "a561020a8275540c019b4eb890d1a25bcf7348fba07066c29b216f29f65115e2"
 	},
 	"defs": {
 		"C_PONG": 1,
