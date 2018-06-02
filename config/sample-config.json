@@ -4,10 +4,11 @@
   "token": "DISCORD_BOT_TOKEN_HERE",
   "serverId": "DISCORD_SERVER_ID_HERE",
   "channels": {
-    "gchat": "GUID_CHAT_CHANNEL_ID_HERE",
+    "announcements": "GUILD_ANNOUNCEMENTS_FOR_ACHIEVEMENTS",
+    "firewall": "GUILD_MEMBER_JOINING_AND_LEAVING_LOGGING_HERE",
+    "gamechat": "MAIN_CHANNEL_TO_RELAY_CHAT",
     "gquests": "GUILD_QUEST_LOGGING_CHANNEL_HERE",
-    "guildannouncements": "GUILD_ACHIEVEMENT_LOGGING_HERE",
-    "guildfirewall": "GUILD_MEMBER_JOINING_AND_LEAVING_LOGGING_HERE"
+    "guildchat": "GUILD_ONLY_ALTERNATIVE_CHANNEL"
   },
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
