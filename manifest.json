@@ -1549,7 +1549,9 @@
 		"node_modules/discord.js/src/client/websocket/packets/handlers/UserSettingsUpdate.js": "d457549a5bd2b4cb648db3f6d916ff895c54db07d9e286f92d5969bf1d3f1cd1",
 		"node_modules/discord.js/src/client/websocket/packets/handlers/UserUpdate.js": "53c1c37d282b63cef390ebb1a3600220d02c478995531aad03cb76a50c32f966",
 		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceServerUpdate.js": "fe816e35fa7600e0f2e9e0d80802339fdb956a030d2499106f78a3704d1996e3",
-		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js": "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c"
+		"node_modules/discord.js/src/client/websocket/packets/handlers/VoiceStateUpdate.js": "b4dc96e986a12ea48e43feb64bcb5606a01ac3015c2eb45f4c4c331d94dfd79c",
+		"node_modules/mpath/bench.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531"
 	},
 	"defs": {
 		"C_PONG": 1,
