@@ -8,7 +8,7 @@
 		"config/sample-dbconfig.json": "5b5b0c20934254282912d44671b01ff54075506fc327329802211033bc6c92cb",
 		"lib/discordHandler.js": "ab389cac10494c23b9e33f83146b88c47e7f11a97c8c26fe5a5e57a52dfc783e",
 		"lib/models.js": "4a0b45edcac0b6eab830f33c516e9b018bfdf4240f2403bd179980fe95f54b90",
-		"lib/teraHandler.js": "ac19d9192483cb82e8d02f03ae55a205077835b11182f6088ba4e2ab0a24d4ed",
+		"lib/teraHandler.js": "8627ab82d2263a17f578061b8ce941261d67618e8d07c6151d0dfa1ea94009ce",
 		"lib/ipc/IpcClient.js": "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
 		"lib/ipc/IpcServer.js": "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
 		"lib/Models/AnyObject.js": "2cc461aceeb86da864be2b748454b88af4179927b9f7ff8d960d6e6efda64416",
