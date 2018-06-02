@@ -1133,7 +1133,7 @@
 		"node_modules/ws/lib/websocket.js": "4a629744585a5da6dbf33973ea123ad1bbb9196aead16717a49f17ceb7c21bc9",
 		"node_modules/async-limiter/coverage/lcov-report/prettify.js": "67126b6cd4d1b2305f8c8fa5974971ebe90ab2b0f6e209ba2f1c6e4af05f0207",
 		"node_modules/async-limiter/coverage/lcov-report/index.html": "0e517f457fe888e5c84ed73f8c51b884616d796d43b01f8ddc58afbdc9c44dd0",
-		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "a79647dd5a7b4e29b4c79dbda3cfee5308340d0918add99b76a8c3c793b29531",
+		"node_modules/async-limiter/coverage/lcov-report/sort-arrow-sprite.png": "cc0509bb6793ce64f35b199d39fea7bada13ecc2d395a43957d0d8aae4f05864",
 		"node_modules/async-limiter/coverage/lcov-report/sorter.js": "f36b3bbab81ff43151b2e5f45dea4770e6e3f2436ed41060792402015c26944d",
 		"node_modules/async-limiter/coverage/lcov-report/base.css": "a8d0046d163e8ba620de95c3f3d30844d72b3037d6e28213e34f4e711fda710e",
 		"node_modules/bluebird/js/browser/bluebird.core.min.js": "24ebcbab51363a805dee3a72b59f353faf48e1d81483448ad1d7e99caf6218fc",
