@@ -1,5 +1,0 @@
-{
-  "USER": "databaseuser_username",
-  "PASS": "databaseuser_pass",
-  "HOST": "ab123456.mlab.com:12345/database-name"
-}
