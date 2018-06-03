@@ -9,8 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push",
-    "devmerge":
-      "git checkout master && git merge --no-ff --no-commit dev && git reset HEAD module.json && git checkout -- module.json && git commit -m \"Merge branch 'dev' into master\""
+    "devtomaster":
+      "git checkout master && git merge --no-ff --no-commit dev && git reset HEAD module.json && git checkout -- module.json && git commit -m \"Merge branch 'dev' into master\"",
+    "mastertodev":
+      "git checkout dev && git merge --no-commit master && git reset HEAD manifest.json && git checkout -- manifest.json && git commit -m \"Merge branch master into dev\""
   },
   "repository": {
     "type": "git",
