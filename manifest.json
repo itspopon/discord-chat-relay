@@ -20,6 +20,8 @@
 		"lib/Models/Guild.js": "a561020a8275540c019b4eb890d1a25bcf7348fba07066c29b216f29f65115e2",
 		"lib/util/emoji.json": "34e85a5aeb5de4e50d1b3f9fd6d0014260176556eb21dfb966d91cd9adbc6e7c",
 		"lib/util/emoji.js": "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
-		"lib/util/index.js": "a6340d27195bcafe53cbbc528ba9c1f97fd7f87dffe5d443fed28bd510f3f76e"
+		"lib/util/index.js": "a6340d27195bcafe53cbbc528ba9c1f97fd7f87dffe5d443fed28bd510f3f76e",
+		"config/update.bat": "56df4c5aeb8411dd5d1a3ca26c04866986d61fba785803099154bed952dd7f03",
+		"config/yarninstall.bat": "ee82bf22fffd2392a6e123b530a6f5028ee7aabb8a44a1b1f91b0c7a72e7d06e"
 	}
 }
