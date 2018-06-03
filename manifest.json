@@ -2,7 +2,6 @@
 	"files": {
 		"README.md": "1dad2d8ad9bc56b6b88e9aaf730f838c124f379f5791cc2a2a209707b5fbfef2",
 		"index.js": "a71e707546cc25bb84ddf8132372f1e053478293c67be45857d2565ef50c6abf",
-		"module.json": "2eb44198b6bad31b5df1029413efd4a15cecd82097238376479db594ecd93aae",
 		"package.json": "a154e55b7dd89c9bfa2f95554de9b70a3e9a35f4e6bc6ff0ddb6350e6f45d179",
 		"lib/discordHandler.js": "7b556222e3b02159352bd03d16d4eb93be3f8154f2420dfec5a415a313b06547",
 		"lib/models.js": "c54ca4ba159016270c6dbbc191d984005c1bc2687071a39dd786eee48353875a",
