@@ -4,3 +4,4 @@ yarn-error.log
 manifestGenerator.js
 config/config.json
 config/dbconfig.json
+node_modules
