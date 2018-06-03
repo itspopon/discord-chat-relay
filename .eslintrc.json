@@ -10,7 +10,7 @@
     "no-unused-vars": [1],
     "no-constant-condition": ["error", { "checkLoops": false }],
     "array-bracket-newline": ["error", { "multiline": true }],
-    "curly": ["error", "all"],
+    "curly": ["error", "multi-line"],
     "brace-style": ["error", "1tbs"],
     "operator-linebreak": ["error", "before"],
     "prefer-destructuring": [1],
