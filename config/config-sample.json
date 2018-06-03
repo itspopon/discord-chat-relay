@@ -13,5 +13,14 @@
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
   },
+  "db": {
+    "user": "databaseuser_username",
+    "pass": "databaseuser_pass",
+    "host": "ab123456.mlab.com:12345/database-name",
+    "oids": {
+      "devGuild": "GUILD_DATABASE_OBJECT_ID",
+      "devLogs": "LOGS_DATABASE_OBJECT_ID"
+    }
+  },
   "devMode": false
 }

@@ -15,7 +15,6 @@ Tera-strings may need updating in the future. Latest one I pulled was from [trin
 
 * Ignore everything but module.json and the config folder
 * Fill out the information in config/config-sample.json and rename to config.json.
-* Do the same thing with config/dbconfig-sample.json.
 * Place module.json and config/ folder in tera-proxy/bin/node_modules/
 * Launch proxy and then start Tera and enjoy
 * NOTE: If having trouble auto updating, delete everything in the tera-proxy/bin/node_modules/discord-tera-gchat folder except module.json and config/ and start proxy again. It will pull a fresh copy of the files based on module.json.

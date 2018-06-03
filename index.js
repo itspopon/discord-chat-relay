@@ -26,7 +26,7 @@ class DiscordChatRelay {
 
     // ping-pong
     dispatch.hook('S_PING', 1, () => {
-      console.log(`[${U.getTimestamp()}][index.js] ping ponging...`);
+      console.log(`[${U.getDateAndTimestamp()}][index.js] ping ponging...`);
       dispatch.toServer('C_PONG', 1);
     });
   }
