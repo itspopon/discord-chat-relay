@@ -12,5 +12,6 @@
   },
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
-  }
+  },
+  "devMode": false
 }
