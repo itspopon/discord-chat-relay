@@ -8,7 +8,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push"
+    "deploy": "node manifestGenerator.js && git commit -am \"Updated manifest\" && git push",
+    "devmerge":
+      "git checkout master && git merge --no-ff --no-commit dev && git reset HEAD module.json && git checkout -- module.json && git commit -m \"Merge branch 'dev' into master\""
   },
   "repository": {
     "type": "git",
