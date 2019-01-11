@@ -9,7 +9,7 @@
     "config/yarninstall.bat": "ee82bf22fffd2392a6e123b530a6f5028ee7aabb8a44a1b1f91b0c7a72e7d06e",
     "lib/discordHandler.js": "36d8604b6aa29e4c1c0980f9a96529b52f206078d1c510d77629133ec6408b0d",
     "lib/models.js": "744f017729514817687c33e75be6df1fda035f89a9177a46ed1b2577f82402b4",
-    "lib/teraHandler.js": "ae57b6ea4c4272dacfae5f3bffed80d62c8b4aa2d58daf1185d2c12b719a13be",
+    "lib/teraHandler.js": "8e28d301bfcf84d9b41bd588ca1ef1ceede7d2c228293ba750d8ed2ec2102012",
     "lib/ipc/IpcClient.js": "a2e533a1554083852f8d1169fcaaeb8d8690f454163657e6fc11f6491d1a339f",
     "lib/ipc/IpcServer.js": "5a0fffac403f2f76c90997f5ceb60dd5522c371eae24c42e2a51f382ee96ca8a",
     "lib/Models/AnyObject.js": "2cc461aceeb86da864be2b748454b88af4179927b9f7ff8d960d6e6efda64416",
