@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hauuguu/discord-chat-relay.git"
+    "url": "git+https://github.com/itspopon/discord-chat-relay.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hauuguu/discord-chat-relay/issues"
+    "url": "https://github.com/itspopon/discord-chat-relay/issues"
   },
-  "homepage": "https://github.com/Hauuguu/discord-chat-relay#readme",
+  "homepage": "https://github.com/itspopon/discord-chat-relay#readme",
   "dependencies": {
     "discord.js": "^11.3.2",
     "lodash": "^4.17.10",

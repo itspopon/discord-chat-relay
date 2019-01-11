@@ -1,5 +1,6 @@
 {
+  "disableAutoUpdate": false,
   "servers": [
-    "https://raw.githubusercontent.com/Hauuguu/discord-chat-relay/master/"
+    "https://raw.githubusercontent.com/itspopon/discord-chat-relay/master/"
   ]
 }
