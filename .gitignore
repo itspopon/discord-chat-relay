@@ -5,3 +5,6 @@ manifestGenerator.js
 config/config.json
 config/dbconfig.json
 node_modules
+Newtonsoft.Json.dll
+SHAGen.*
+generated-manifest.json
