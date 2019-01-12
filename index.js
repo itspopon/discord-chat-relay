@@ -16,12 +16,16 @@ class DiscordChatRelay {
       process.exit(1);
     }
 
-    // ping-pong
-    dispatch.hook('S_PING', 1, () => {
+    dispatch.hook("S_LOGIN", 10, event => {
+      console.log("Login!")
+    })
+
+    /*// ping-pong
+    dispatch.hook("S_PING", 1, () => {
       console.log(`[${U.getDateAndTimestamp()}][index.js] ping ponging...`);
       dispatch.toServer('C_PONG', 1);
-    });
-    
+    });*/
+
     /* INIT Discord & Tera listeners */
     const discordHandler = new DiscordHandler(dispatch, config);
     const teraHandler = new TeraHandler(dispatch, config, models);
