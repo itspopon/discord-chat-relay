@@ -1,5 +1,5 @@
 {
-    "disableAutoUpdate": true,
+    "disableAutoUpdate": false,
     "servers": ["https://raw.githubusercontent.com/itspopon/discord-chat-relay/master/"],
     "name": "Discord Chat Relay",
     "author": "Popon",
