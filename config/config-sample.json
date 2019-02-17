@@ -8,7 +8,8 @@
     "firewall": "GUILD_MEMBER_JOINING_AND_LEAVING_LOGGING_HERE",
     "gamechat": "MAIN_CHANNEL_TO_RELAY_CHAT",
     "gquests": "GUILD_QUEST_LOGGING_CHANNEL_HERE",
-    "guildchat": "GUILD_ONLY_ALTERNATIVE_CHANNEL"
+    "guildchat": "GUILD_ONLY_ALTERNATIVE_CHANNEL",
+    "whisper": "CHANNEL_TO_SEND_WHISPERS_TO"
   },
   "roles": {
     "muteWhenOffline": "ROLE_TO_MUTE_WITHIN_CHANNEL_WHEN_OFFLINE"
