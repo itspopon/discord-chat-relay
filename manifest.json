@@ -20,7 +20,6 @@
         "lib/util/emoji.js": "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
         "lib/util/emoji.json": "c8f34bd4df712f5ff313f6f0a1d51570cc2700c3c2ab0dc39b1ef4bbb6c6e389",
         "lib/util/index.js": "654ac6f9be42fe718e65f0a119a5a4e11f9e024fcd264886fd39db4fbb6f0b99",
-        "manifestGenerator.js": "b8a8133f6329b81399ba074d70ab66d15c2ea6213129e6c8ea6b6f04549023fd",
         "module.json": "dfdc72cebc7eefeeebd0427968a7cf6725e33a74aea9df30522ff962beea3924",
         "package-lock.json": "98ae6a6ee057c6aed9a393fd4a80bb2956cb595ce90c57e2f5a0df1defe12a2d",
         "package.json": "28d213984e77ef2c589f96c5014131700add44e8773dec8f6913ddbcf5092179"
