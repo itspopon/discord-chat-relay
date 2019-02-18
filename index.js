@@ -9,22 +9,18 @@ const U = require('./lib/util');
 class DiscordChatRelay {
   constructor(dispatch) {
     /* CONFIG FILE */
-    const config = JSON.parse(fs.readFileSync(path.join(__dirname, '/config/config.json'), 'utf8'));
+    const config = JSON.parse(
+      fs.readFileSync(path.join(__dirname, '/config/config.json'), 'utf8')
+    );
 
     if (!config) {
-      console.error('no config file found');
+      console.error('[Relay] No config file found');
       process.exit(1);
     }
 
-    dispatch.hook("S_LOGIN", 10, event => {
-      console.log("Login!")
-    })
-
-    /*// ping-pong
-    dispatch.hook("S_PING", 1, () => {
-      console.log(`[${U.getDateAndTimestamp()}][index.js] ping ponging...`);
-      dispatch.toServer('C_PONG', 1);
-    });*/
+    dispatch.hook('S_LOGIN', 10, event => {
+      console.log('[Relay] Login!');
+    });
 
     /* INIT Discord & Tera listeners */
     const discordHandler = new DiscordHandler(dispatch, config);
@@ -33,7 +29,6 @@ class DiscordChatRelay {
     this.destructor = () => {
       teraHandler.setLoginStatus(false);
     };
-
   }
 }
 
