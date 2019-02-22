@@ -1,6 +1,5 @@
 {
   "character": "TERA_CHARACTER_NAME_HERE",
-  "socketName": "ANY_DESCRIPTIVE_NAME_HERE",
   "token": "DISCORD_BOT_TOKEN_HERE",
   "serverId": "DISCORD_SERVER_ID_HERE",
   "channels": {
@@ -21,7 +20,8 @@
     "oids": {
       "devGuild": "GUILD_DATABASE_OBJECT_ID",
       "devLogs": "LOGS_DATABASE_OBJECT_ID"
-    }
+    },
+    "local": "Are you running mongodb locally? If yes set this to true"
   },
   "devMode": false
 }
