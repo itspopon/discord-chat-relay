@@ -15,7 +15,7 @@
         "lib/tera-strings/index.js": "04da9795e3522f1dbcc0d64ba506a9ce00462618e6fe5b3cd1cd3f7a3ba5c471",
         "lib/tera-strings/package.json": "f05fb360974a4c7f30cba5358a500a2e0d3da216b991eb1472573c567d0d4091",
         "lib/tera-strings/strings.json": "49ab4c2e6458566e78d55401ade4d2173f79254b4f9e64ce022b0f41c918a8bd",
-        "lib/teraHandler.js": "af7739d20002d8f89c9679d2b54c5ee587ebf0d9a849ece3fb2aeb128eea404a",
+        "lib/teraHandler.js": "fe4440fa42cb75a5a81926b5935343cf93a64b273f46e5db96781d1d637947c2",
         "lib/util/emoji.js": "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
         "lib/util/emoji.json": "c8f34bd4df712f5ff313f6f0a1d51570cc2700c3c2ab0dc39b1ef4bbb6c6e389",
         "lib/util/index.js": "c8f76285ad8c9e433f5d25f72b0ddd0c0c18708b7cda275ae7388f05c7fc28cf",
