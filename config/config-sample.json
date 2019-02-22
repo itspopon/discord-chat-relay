@@ -21,7 +21,7 @@
       "devGuild": "GUILD_DATABASE_OBJECT_ID",
       "devLogs": "LOGS_DATABASE_OBJECT_ID"
     },
-    "local": "Are you running mongodb locally? If yes set this to true"
+    "local": "Are you running mongodb locally? If yes set this to true, otherwise, false."
   },
   "devMode": false
 }
