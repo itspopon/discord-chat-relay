@@ -2,9 +2,10 @@ const fs = require('fs');
 const path = require('path');
 
 const models = require('./lib/models.js');
-const DiscordHandler = require('./lib/discordHandler.js');
-const TeraHandler = require('./lib/teraHandler.js');
-const U = require('./lib/util');
+const DiscordHandler = require('./lib/DiscordHandler.js');
+const TeraHandler = require('./lib/TeraHandler.js');
+
+const Events = require('./lib/Events');
 
 class DiscordChatRelay {
   constructor(dispatch) {
@@ -22,12 +23,14 @@ class DiscordChatRelay {
       console.log('[Relay] Login!');
     });
 
+    const events = new Events();
+
     /* INIT Discord & Tera listeners */
-    const discordHandler = new DiscordHandler(dispatch, config);
-    const teraHandler = new TeraHandler(dispatch, config, models);
+    const discord = new DiscordHandler(dispatch, config, events);
+    const tera = new TeraHandler(dispatch, config, models, events);
 
     this.destructor = () => {
-      teraHandler.setLoginStatus(false);
+      tera.setLoginStatus(false);
     };
   }
 }
