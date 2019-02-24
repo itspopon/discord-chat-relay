@@ -26,7 +26,8 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "lodash": "^4.17.11",
-    "mongoose": "^5.4.13"
+    "mongoose": "^5.4.13",
+    "string-template": "^1.0.0"
   },
   "devDependencies": {}
 }
