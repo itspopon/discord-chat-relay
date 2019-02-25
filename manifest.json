@@ -18,7 +18,7 @@
         "lib/teraHandler.js": "c956cc4b1c613add81aa8cc52140473f2be912dbdfa0f7b030e49432769bc975",
         "lib/util/emoji.js": "7af124528a2aed98adf2826782f2638c390a24e101245cc698037db1d535879e",
         "lib/util/emoji.json": "c8f34bd4df712f5ff313f6f0a1d51570cc2700c3c2ab0dc39b1ef4bbb6c6e389",
-        "lib/util/index.js": "c8f76285ad8c9e433f5d25f72b0ddd0c0c18708b7cda275ae7388f05c7fc28cf",
+        "lib/util/index.js": "f6ae813fe52c22c2ac5f58f99c81e0d2441a1a111a0158d6e2ebcc15d1a867d8",
         "lib/util/logger.js": "19f8903232c1ac7efa6cb4a039c49f6e1fc248ff07142bdb9a4ef722e1caaad0",
         "lib/util/messages.js": "cdeacf865ccb7e88d3a6051ac587b55f78a4db852e0e0b032cfebd1317b49b69",
         "module.json": "dfdc72cebc7eefeeebd0427968a7cf6725e33a74aea9df30522ff962beea3924",
